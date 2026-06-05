@@ -1,0 +1,274 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "flights": "Experiencias",
+    "courses": "Cursos",
+    "gallery": "Galer\u00eda",
+    "instructors": "Instructores",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "book": "Reservar",
+    "bookNow": "Reservar ahora"
+  },
+  "hero": {
+    "title": "Vuela sobre el cielo de Valle de Bravo",
+    "subtitle": "Pilotos certificados  \u00b7 Vuelos t\u00e1ndem ",
+    "cta1": "Reservar vuelo \u2192",
+    "cta2": "Ver experiencias",
+    "stats1": "500+ vuelos al a\u00f1o",
+    "stats2": "4.9\u2605 calificaci\u00f3n",
+    "stats3": "10+ a\u00f1os de experiencia"
+  },
+  "trust": {
+    "certified": "Pilotos certificados",
+    "gopro": "Fotos y video GoPro",
+    "transport": "Transporte al despegue",
+    "booking": "Reserva online 24/7"
+  },
+  "packages": {
+    "title": "Elige tu experiencia de vuelo",
+    "classic": {
+      "name": "Vuelo Cl\u00e1sico",
+      "duration": "20 min de vuelo t\u00e1ndem",
+      "features": ["Vuelo t\u00e1ndem de 20 min", "Transporte al despegue La Torre", "Seguro de vuelo incluido", "Instructor certificado"],
+      "goodFor": "Ideal para primeras veces y familias",
+      "price": "$1,200"
+    },
+    "sunset": {
+      "name": "Vuelo Sunset",
+      "badge": "M\u00e1s Popular",
+      "duration": "35 min al atardecer",
+      "features": ["Vuelo t\u00e1ndem de 35 min al atardecer", "Fotos y video GoPro HD", "Champagne al aterrizar", "Certificado de vuelo"],
+      "goodFor": "Perfecto para parejas y ocasiones especiales",
+      "price": "$1,800"
+    },
+    "xc": {
+      "name": "Experiencia XC",
+      "duration": "45-60 min vuelo cross-country",
+      "features": ["Vuelo cross-country 45-60 min", "Video INSTA360", "Transporte privado", "Briefing pre-vuelo personalizado"],
+      "goodFor": "Para aventureros y pilotos con experiencia",
+      "price": "$2,800"
+    },
+    "bookButton": "Reservar este vuelo"
+  },
+  "howItWorks": {
+    "title": "C\u00f3mo funciona",
+    "step1": "Elige tu vuelo y fecha",
+    "step2": "Confirma con anticipo de $500",
+    "step3": "Te recogemos en Valle de Bravo",
+    "step4": "\u00a1Vuela y ll\u00e9vate tus fotos!"
+  },
+  "gallery": {
+    "title": "Galer\u00eda de vuelos",
+    "all": "Todos",
+    "tandem": "T\u00e1ndem",
+    "sunset": "Sunset",
+    "xc": "XC",
+    "courses": "Cursos"
+  },
+  "instructors": {
+    "title": "Conoce a nuestros pilotos",
+    "years": "a\u00f1os",
+    "flights": "vuelos",
+    "certifications": "Certificaciones",
+    "specialty": "Especialidad"
+  },
+  "reviews": {
+    "title": "Lo que dicen quienes ya volaron"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "q1": "\u00bfEs seguro volar en parapente?",
+    "a1": "S\u00ed, volar en parapente t\u00e1ndem es una actividad muy segura. Todos nuestros pilotos est\u00e1n certificados por la AVLM y APPI, y contamos con seguro de vuelo para cada pasajero. Revisamos el equipo antes de cada vuelo y solo volamos cuando las condiciones meteorol\u00f3gicas son ideales.",
+    "q2": "\u00bfNecesito experiencia previa?",
+    "a2": "No, para los vuelos t\u00e1ndem no necesitas ninguna experiencia. Tu piloto se encarga de todo: despegue, vuelo y aterrizaje. Solo necesitas seguir instrucciones simples y disfrutar la vista.",
+    "q3": "\u00bfQu\u00e9 incluye el precio?",
+    "a3": "Todos nuestros vuelos incluyen transporte al despegue, seguro de vuelo, equipo completo y un instructor certificado. El Vuelo Sunset incluye adem\u00e1s fotos y video GoPro, y el XC incluye video INSTA360 y transporte privado.",
+    "q4": "\u00bfCu\u00e1nto dura el vuelo?",
+    "a4": "El Vuelo Cl\u00e1sico dura 20 minutos, el Vuelo Sunset 35 minutos, y la Experiencia XC entre 45 y 60 minutos. Los tiempos pueden variar seg\u00fan condiciones de vuelo.",
+    "q5": "\u00bfQu\u00e9 debo llevar?",
+    "a5": "Ropa c\u00f3moda, zapatos cerrados, protector solar y una actitud aventurera. Te proporcionamos todo el equipo t\u00e9cnico necesario. En invierno te sugerimos traer una chaqueta ligera.",
+    "q6": "\u00bfPuedo cancelar mi reserva?",
+    "a6": "S\u00ed, puedes cancelar hasta 24 horas antes del vuelo sin costo. Si las condiciones meteorol\u00f3gicas no permiten volar, reprogramamos tu vuelo sin cargo adicional.",
+    "q7": "\u00bfHay l\u00edmite de edad o peso?",
+    "a7": "La edad m\u00ednima es 6 a\u00f1os (con autorizaci\u00f3n de padre/tutor). El peso m\u00e1ximo es 110 kg. No hay l\u00edmite de edad superior \u2014 \u00a1nuestro pasajero m\u00e1s longevo ten\u00eda 82 a\u00f1os!",
+    "q8": "\u00bfEn qu\u00e9 \u00e9poca del a\u00f1o se puede volar?",
+    "a8": "Volamos todo el a\u00f1o, pero la mejor temporada es de octubre a mayo, cuando las condiciones t\u00e9rmicas son ideales. Valle de Bravo ha sido sede de la Copa del Mundo de Parapente 5 veces gracias a sus condiciones de vuelo de clase mundial."
+  },
+  "booking": {
+    "title": "Reservar vuelo",
+    "step1Title": "Elige tu vuelo",
+    "step2Title": "Tus datos",
+    "step3Title": "Confirmar",
+    "flightType": "Tipo de vuelo",
+    "people": "N\u00famero de personas",
+    "date": "Fecha preferida",
+    "time": "Horario preferido",
+    "name": "Nombre completo",
+    "email": "Correo electr\u00f3nico",
+    "whatsapp": "WhatsApp",
+    "weight": "Peso (kg)",
+    "medical": "Condiciones m\u00e9dicas (opcional)",
+    "hearAbout": "\u00bfC\u00f3mo nos conociste?",
+    "addOns": "Extras",
+    "goproPhotos": "Fotos GoPro +$300",
+    "goproVideo": "Video GoPro +$300",
+    "privateTransport": "Transporte privado +$200",
+    "certificate": "Certificado conmemorativo +$150",
+    "summary": "Resumen de reserva",
+    "selectedPackage": "Paquete seleccionado",
+    "dateAndTime": "Fecha y hora",
+    "peopleCount": "Personas",
+    "extras": "Extras",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "deposit": "Anticipo requerido: $500 MXN",
+    "confirmButton": "Confirmar reservaci\u00f3n \u2192",
+    "successTitle": "\u00a1Reservaci\u00f3n confirmada!",
+    "successMessage": "Te contactaremos por WhatsApp para confirmar los detalles y el pago del anticipo.",
+    "whatsappCta": "\u00bfPrefieres reservar por WhatsApp?",
+    "cancellationPolicy": "Pol\u00edtica de cancelaci\u00f3n",
+    "cancellationText": "Puedes cancelar hasta 24 horas antes del vuelo sin costo. Si las condiciones meteorol\u00f3gicas no permiten volar, reprogramamos sin cargo adicional.",
+    "validation": {
+      "nameRequired": "El nombre es obligatorio",
+      "emailRequired": "El correo electr\u00f3nico es obligatorio",
+      "emailInvalid": "Correo electr\u00f3nico no v\u00e1lido",
+      "whatsappRequired": "El n\u00famero de WhatsApp es obligatorio",
+      "weightRequired": "El peso es obligatorio para tu seguridad",
+      "weightMax": "Peso m\u00e1ximo 110 kg",
+      "dateRequired": "La fecha es obligatoria",
+      "flightTypeRequired": "Selecciona un tipo de vuelo"
+    },
+    "timeSlots": {
+      "7am": "7:00 am",
+      "9am": "9:00 am",
+      "11am": "11:00 am",
+      "2pm": "2:00 pm"
+    },
+    "hearOptions": {
+      "google": "Google",
+      "instagram": "Instagram",
+      "friend": "Amigo/Familiar",
+      "tripadvisor": "TripAdvisor",
+      "other": "Otro"
+    }
+  },
+  "courses": {
+    "title": "Cursos de Parapente",
+    "subtitle": "Aprende a volar con los mejores instructores de Valle de Bravo",
+    "beginner": {
+      "name": "Iniciaci\u00f3n",
+      "duration": "5 d\u00edas",
+      "price": "$8,500",
+      "description": "Tu primer paso como piloto. Aprende las bases del vuelo en parapente, desde el control en suelo hasta tus primeros vuelos supervisados.",
+      "includes": ["Material did\u00e1ctico", "Equipo completo durante el curso", "Vuelos supervisados en ladera", "Seguro de vuelo", "Certificado AVLM de iniciaci\u00f3n", "M\u00e1ximo 4 alumnos por grupo"],
+      "schedule": ["D\u00eda 1: Teor\u00eda y control en suelo", "D\u00eda 2: Primeros despegues en ladera", "D\u00eda 3: Vuelos cortos supervisados", "D\u00eda 4: Pr\u00e1ctica de aterrizaje y control", "D\u00eda 5: Vuelos progresivos"]
+    },
+    "pilot": {
+      "name": "Piloto",
+      "duration": "10 d\u00edas",
+      "price": "$15,000",
+      "description": "Formaci\u00f3n completa para obtener tu licencia de piloto. Incluye t\u00e9cnicas de vuelo t\u00e9rmico, navegaci\u00f3n y procedimientos de emergencia.",
+      "includes": ["Todo lo del curso Iniciaci\u00f3n", "Vuelos t\u00e9rmicos", "Navegaci\u00f3n y planificaci\u00f3n", "Procedimientos de emergencia", "Licencia AVLM Piloto", "Manual del piloto"],
+      "schedule": ["D\u00edas 1-5: Programa Iniciaci\u00f3n", "D\u00eda 6: Vuelo t\u00e9rmico te\u00f3rico", "D\u00eda 7: Primeros vuelos t\u00e9rmicos", "D\u00eda 8: Navegaci\u00f3n y XC", "D\u00eda 9: Simulaci\u00f3n de emergencias", "D\u00eda 10: Examen y vuelo final"]
+    },
+    "advanced": {
+      "name": "Perfeccionamiento XC",
+      "duration": "7 d\u00edas",
+      "price": "$12,000",
+      "description": "Para pilotos con licencia que buscan mejorar sus habilidades de cross-country en uno de los mejores sitios del mundo.",
+      "includes": ["An\u00e1lisis de condiciones t\u00e9rmicas", "Estrategia XC", "Uso de instrumentos (vari\u00f3metro, GPS)", "Debriefing con video", "Vuelos guiados XC", "Transporte a El Pe\u00f1\u00f3n"],
+      "schedule": ["D\u00eda 1: Evaluaci\u00f3n y planificaci\u00f3n", "D\u00eda 2-3: T\u00e9rmicas en La Torre", "D\u00eda 4-5: XC desde El Pe\u00f1\u00f3n", "D\u00eda 6: Vuelo largo XC", "D\u00eda 7: Debriefing final y certificaci\u00f3n"]
+    },
+    "certification": "Certificaci\u00f3n",
+    "certText": "Todos nuestros cursos est\u00e1n reconocidos por la AVLM (Asociaci\u00f3n de Vuelo Libre de M\u00e9xico) y APPI (Association of Paragliding Pilots and Instructors). Al completar el curso Piloto, obtienes tu licencia oficial para volar de forma independiente en M\u00e9xico y en m\u00e1s de 40 pa\u00edses afiliados a APPI.",
+    "inquiry": "Consultar sobre cursos",
+    "inquirySubject": "Consulta sobre cursos de parapente"
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Escr\u00edbenos y te respondemos en menos de 24 horas",
+    "name": "Nombre",
+    "email": "Correo electr\u00f3nico",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "send": "Enviar mensaje",
+    "address": "Valle de Bravo, Estado de M\u00e9xico, 51200",
+    "hours": "Lunes a Domingo: 7:00 am - 6:00 pm",
+    "emailLabel": "Correo",
+    "whatsappLabel": "WhatsApp",
+    "subjectOptions": {
+      "flight": "Consulta sobre vuelos",
+      "course": "Consulta sobre cursos",
+      "group": "Grupos y eventos",
+      "other": "Otro"
+    },
+    "validation": {
+      "nameRequired": "El nombre es obligatorio",
+      "emailRequired": "El correo es obligatorio",
+      "messageRequired": "El mensaje es obligatorio"
+    },
+    "successTitle": "\u00a1Mensaje enviado!",
+    "successMessage": "Te responderemos en menos de 24 horas."
+  },
+  "blog": {
+    "title": "Blog de Parapente",
+    "subtitle": "Gu\u00edas, consejos y todo lo que necesitas saber sobre el parapente en Valle de Bravo",
+    "readMore": "Leer m\u00e1s",
+    "minRead": "min de lectura",
+    "related": "Art\u00edculos relacionados",
+    "share": "Compartir",
+    "toc": "Contenido"
+  },
+  "why": {
+    "title": "\u00bfPor qu\u00e9 VuelaValle?",
+    "reason1Title": "Especializaci\u00f3n total",
+    "reason1Text": "Solo volamos. No hacemos tours gen\u00e9ricos ni actividades tur\u00edsticas. Cada d\u00eda perfeccionamos nuestro arte, y eso se nota en cada vuelo.",
+    "reason2Title": "Pilotos con +1,000 vuelos",
+    "reason2Text": "Cada uno de nuestros instructores ha completado m\u00e1s de 1,000 vuelos. La experiencia no se improvisa, y tu seguridad depende de ella.",
+    "reason3Title": "Destino de clase mundial",
+    "reason3Text": "Valle de Bravo ha sido sede de la Copa del Mundo de Parapente en 5 ocasiones. Las condiciones t\u00e9rmicas y el paisaje lo convierten en uno de los mejores sitios del planeta para volar."
+  },
+  "numbers": {
+    "flights": "Vuelos al a\u00f1o",
+    "rating": "Calificaci\u00f3n promedio",
+    "years": "A\u00f1os de experiencia",
+    "pilots": "Pilotos certificados"
+  },
+  "cta": {
+    "title": "\u00bfListo para volar?",
+    "subtitle": "Reserva tu vuelo hoy y vive la experiencia de tu vida.",
+    "button": "Reservar vuelo \u2192"
+  },
+  "footer": {
+    "tagline": "Especialistas en vuelo sobre Valle de Bravo",
+    "pages": "P\u00e1ginas",
+    "contactTitle": "Contacto",
+    "legal": "Legal",
+    "privacy": "Aviso de privacidad",
+    "terms": "T\u00e9rminos y condiciones",
+    "copyright": "\u00a9 2026 VuelaValle. Todos los derechos reservados.",
+    "social": "S\u00edguenos"
+  },
+  "whatsapp": {
+    "tooltip": "Reserva por WhatsApp",
+    "book": "Reservar vuelo \u2192"
+  },
+  "alt": {
+    "hero": "Parapente sobre Valle de Bravo al atardecer",
+    "classic": "Vuelo cl\u00e1sico en parapente sobre Valle de Bravo",
+    "sunset": "Vuelo sunset en parapente sobre Valle de Bravo",
+    "xc": "Vuelo cross-country en parapente Valle de Bravo",
+    "gallery1": "Parapente volando sobre el lago de Valle de Bravo",
+    "gallery2": "Parapente t\u00e1ndem en Valle de Bravo atardecer",
+    "gallery3": "Vista a\u00e9rea del lago Valle de Bravo parapente",
+    "gallery4": "Monta\u00f1as alrededor de Valle de Bravo parapente",
+    "gallery5": "Paisaje panor\u00e1mico Valle de Bravo vuelo libre",
+    "gallery6": "Parapente despegando en Valle de Bravo",
+    "gallery7": "Atardecer sobre Valle de Bravo parapente",
+    "gallery8": "Vuelo en parapente sobre bosques Valle de Bravo",
+    "instructor": "Instructor de parapente certificado Valle de Bravo"
+  },
+  "skipToContent": "Ir al contenido principal",
+  "languageSwitch": "EN"
+}

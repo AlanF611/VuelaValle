@@ -1,0 +1,29 @@
+Place your images here with these exact filenames:
+
+LOGOS:
+- logo.png        — Navbar logo (dark version, for white backgrounds), ~40px height, transparent bg
+- logo-white.png  — Footer logo (white version, for dark backgrounds), ~40px height, transparent bg
+
+HERO IMAGES (1920px wide recommended):
+- hero.jpg          — Home hero (paragliding over Valle de Bravo)
+- flights-hero.jpg  — Flights page hero
+- gallery-hero.jpg  — Gallery page hero
+- instructors-hero.jpg — Instructors page hero
+- contact-hero.jpg  — Contact page hero
+- blog-hero.jpg     — Blog index hero
+- courses-hero.jpg  — Courses page hero
+
+PACKAGE IMAGES (800px wide):
+- classic.jpg  — Classic flight package
+- sunset.jpg   — Sunset flight package
+- xc.jpg       — XC flight package
+
+BLOG IMAGES (800px wide):
+- blog-safety.jpg  — Safety article cover
+- blog-season.jpg  — Best season article cover
+- blog-guide.jpg   — Getting there article cover
+
+GALLERY IMAGES (800px wide):
+- gallery-1.jpg  through  gallery-12.jpg
+
+Total: 25 image files

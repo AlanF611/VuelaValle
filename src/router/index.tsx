@@ -1,5 +1,5 @@
-import { lazy, Suspense } from 'react';
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { lazy, Suspense, useEffect } from 'react';
+import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 const HomePage = lazy(() => import('../pages/home/HomePage'));
@@ -21,40 +21,59 @@ function LoadingFallback() {
   );
 }
 
+// Componente para manejar el scroll al cambiar de ruta
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    // Scroll instantáneo al inicio de la página
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'instant' as ScrollBehavior
+    });
+  }, [pathname]);
+
+  return null;
+}
+
 export default function AppRouter() {
   const { i18n: i18nInstance } = useTranslation();
   const lang = i18nInstance.language as 'es' | 'en';
 
   return (
-    <Suspense fallback={<LoadingFallback />}>
-      <Routes>
-        {/* Spanish routes */}
-        <Route path="/" element={<HomePage />} />
-        <Route path="/parapente-valle-de-bravo" element={<FlightsPage />} />
-        <Route path="/galeria" element={<GalleryPage />} />
-        <Route path="/instructores" element={<InstructorsPage />} />
-        <Route path="/blog" element={<BlogIndex />} />
-        <Route path="/blog/:slug" element={<BlogPost />} />
-        <Route path="/contacto" element={<ContactPage />} />
-        <Route path="/reservar" element={<BookingPage />} />
-        <Route path="/aviso-de-privacidad" element={<PrivacyPage />} />
-        <Route path="/terminos-y-condiciones" element={<TermsPage />} />
+    <>
+      <ScrollToTop /> {/* 👈 Reset del scroll en cada cambio de ruta */}
+      <Suspense fallback={<LoadingFallback />}>
+        <Routes>
+          {/* Spanish routes */}
+          <Route path="/" element={<HomePage />} />
+          <Route path="/parapente-valle-de-bravo" element={<FlightsPage />} />
+          <Route path="/galeria" element={<GalleryPage />} />
+          <Route path="/instructores" element={<InstructorsPage />} />
+          <Route path="/blog" element={<BlogIndex />} />
+          <Route path="/blog/:slug" element={<BlogPost />} />
+          <Route path="/contacto" element={<ContactPage />} />
+          <Route path="/reservar" element={<BookingPage />} />
+          <Route path="/aviso-de-privacidad" element={<PrivacyPage />} />
+          <Route path="/terminos-y-condiciones" element={<TermsPage />} />
 
-        {/* English routes */}
-        <Route path="/en" element={<HomePage />} />
-        <Route path="/en/paragliding-valle-de-bravo" element={<FlightsPage />} />
-        <Route path="/en/gallery" element={<GalleryPage />} />
-        <Route path="/en/instructors" element={<InstructorsPage />} />
-        <Route path="/en/blog" element={<BlogIndex />} />
-        <Route path="/en/blog/:slug" element={<BlogPost />} />
-        <Route path="/en/contact" element={<ContactPage />} />
-        <Route path="/en/book" element={<BookingPage />} />
-        <Route path="/en/privacy-policy" element={<PrivacyPage />} />
-        <Route path="/en/terms-and-conditions" element={<TermsPage />} />
+          {/* English routes */}
+          <Route path="/en" element={<HomePage />} />
+          <Route path="/en/paragliding-valle-de-bravo" element={<FlightsPage />} />
+          <Route path="/en/gallery" element={<GalleryPage />} />
+          <Route path="/en/instructors" element={<InstructorsPage />} />
+          <Route path="/en/blog" element={<BlogIndex />} />
+          <Route path="/en/blog/:slug" element={<BlogPost />} />
+          <Route path="/en/contact" element={<ContactPage />} />
+          <Route path="/en/book" element={<BookingPage />} />
+          <Route path="/en/privacy-policy" element={<PrivacyPage />} />
+          <Route path="/en/terms-and-conditions" element={<TermsPage />} />
 
-        {/* Catch-all */}
-        <Route path="*" element={<Navigate to={lang === 'en' ? '/en' : '/'} replace />} />
-      </Routes>
-    </Suspense>
+          {/* Catch-all */}
+          <Route path="*" element={<Navigate to={lang === 'en' ? '/en' : '/'} replace />} />
+        </Routes>
+      </Suspense>
+    </>
   );
 }

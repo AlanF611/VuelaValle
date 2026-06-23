@@ -5,21 +5,17 @@ import SEOHead from '../../components/seo/SEOHead';
 import Modal from '../../components/ui/Modal';
 
 const galleryImages = [
-  { src: '/img/gallery-1.jpg', category: 'tandem', altEs: 'Parapente volando sobre el lago de Valle de Bravo', altEn: 'Paragliding over Valle de Bravo lake' },
-  { src: '/img/gallery-2.jpg', category: 'sunset', altEs: 'Parapente tándem en Valle de Bravo atardecer', altEn: 'Tandem paragliding in Valle de Bravo sunset' },
-  { src: '/img/gallery-3.jpg', category: 'xc', altEs: 'Vuelo cross-country parapente Valle de Bravo', altEn: 'Cross-country paragliding flight Valle de Bravo' },
-  { src: '/img/gallery-4.jpg', category: 'tandem', altEs: 'Vista aérea del lago Valle de Bravo parapente', altEn: 'Aerial view of Valle de Bravo lake paragliding' },
-  { src: '/img/gallery-5.jpg', category: 'sunset', altEs: 'Paisaje panorámico Valle de Bravo vuelo libre', altEn: 'Panoramic landscape Valle de Bravo free flight' },
-  { src: '/img/gallery-6.jpg', category: 'xc', altEs: 'Montañas alrededor de Valle de Bravo parapente', altEn: 'Mountains around Valle de Bravo paragliding' },
-  { src: '/img/gallery-7.jpg', category: 'courses', altEs: 'Curso de parapente iniciación Valle de Bravo', altEn: 'Beginner paragliding course Valle de Bravo' },
-  { src: '/img/gallery-8.jpg', category: 'tandem', altEs: 'Parapente despegando en Valle de Bravo', altEn: 'Paraglider launching in Valle de Bravo' },
-  { src: '/img/gallery-9.jpg', category: 'courses', altEs: 'Práctica de parapente en ladera Valle de Bravo', altEn: 'Paragliding hill practice Valle de Bravo' },
-  { src: '/img/gallery-10.jpg', category: 'sunset', altEs: 'Atardecer sobre Valle de Bravo parapente', altEn: 'Sunset over Valle de Bravo paragliding' },
-  { src: '/img/gallery-11.jpg', category: 'xc', altEs: 'Vuelo en parapente sobre bosques Valle de Bravo', altEn: 'Paragliding over forests Valle de Bravo' },
-  { src: '/img/gallery-12.jpg', category: 'courses', altEs: 'Instructor de parapente con alumno Valle de Bravo', altEn: 'Paragliding instructor with student Valle de Bravo' },
+  { src: '/img/VUELOSOBRE.jpeg', category: 'tandem', altEs: 'Parapente volando sobre el lago de Valle de Bravo', altEn: 'Paragliding over Valle de Bravo lake' },
+  { src: '/img/country.jpeg', category: 'xc', altEs: 'Vuelo cross-country parapente Valle de Bravo', altEn: 'Cross-country paragliding flight Valle de Bravo' },
+  { src: '/img/VUELO4.jpeg', category: 'tandem', altEs: 'Vista aérea del lago Valle de Bravo parapente', altEn: 'Aerial view of Valle de Bravo lake paragliding' },
+  { src: '/img/best.jpeg', category: 'sunset', altEs: 'Paisaje panorámico Valle de Bravo vuelo libre', altEn: 'Panoramic landscape Valle de Bravo free flight' },
+  { src: '/img/galeria.jpeg', category: 'xc', altEs: 'Montañas alrededor de Valle de Bravo parapente', altEn: 'Mountains around Valle de Bravo paragliding' },
+  { src: '/img/aterrizaje.jpeg', category: 'tandem', altEs: 'Parapente aterrizando en Valle de Bravo', altEn: 'Paragliding landing in Valle de Bravo' },
+  { src: '/img/VUELO3.jpeg', category: 'sunset', altEs: 'Atardecer sobre Valle de Bravo parapente', altEn: 'Sunset over Valle de Bravo paragliding' },
+  { src: '/img/bosques.jpeg', category: 'xc', altEs: 'Vuelo en parapente sobre bosques Valle de Bravo', altEn: 'Paragliding over forests Valle de Bravo' },
 ];
 
-type Category = 'all' | 'tandem' | 'sunset' | 'xc' | 'courses';
+type Category = 'all' | 'tandem' | 'sunset' | 'xc' ;
 
 export default function GalleryPage() {
   const { t, i18n: i18nInstance } = useTranslation();
@@ -27,21 +23,21 @@ export default function GalleryPage() {
   const [activeFilter, setActiveFilter] = useState<Category>('all');
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
 
-  const filters: Category[] = ['all', 'tandem', 'sunset', 'xc', 'courses'];
+  const filters: Category[] = ['all', 'tandem', 'sunset', 'xc'];
   const filtered = activeFilter === 'all' ? galleryImages : galleryImages.filter(img => img.category === activeFilter);
 
   return (
     <main className="pt-16 lg:pt-20">
       <SEOHead
         title={lang === 'es' ? 'Galería de Vuelos en Parapente | Valle de Bravo | VuelaValle' : 'Paragliding Gallery | Valle de Bravo | VuelaValle'}
-        description={lang === 'es' ? 'Galería de fotos de vuelos en parapente en Valle de Bravo. Vuelos tándem, sunset, XC.' : 'Photo gallery of paragliding flights in Valle de Bravo. Tandem, sunset, XC flights and courses.'}
+        description={lang === 'es' ? 'Galería de fotos de vuelos en parapente en Valle de Bravo. Vuelos tándem, sunset, XC.' : 'Photo gallery of paragliding flights in Valle de Bravo. Tandem, sunset, XC flights.'}
         pathEs="/galeria"
         pathEn="/en/gallery"
       />
 
       <section className="relative h-[50vh] min-h-[350px] flex items-center justify-center overflow-hidden">
         <img
-          src="/img/gallery-hero.jpg"
+          src="/img/galeria.jpeg"
           alt={lang === 'es' ? 'Galería parapente valle de bravo' : 'Paragliding gallery valle de bravo'}
           className="absolute inset-0 w-full h-full object-cover"
           loading="eager"

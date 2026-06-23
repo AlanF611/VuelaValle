@@ -104,8 +104,52 @@ export default function BookingPage() {
   ]);
 
   const onSubmit = (data: FormData) => {
-    console.log('Booking submitted:', data, 'Total:', total);
+    // Construir el mensaje para WhatsApp
+    const hearOptions = t('booking.hearOptions', { returnObjects: true }) as Record<string, string>;
+    const hearAboutText = data.hearAbout ? hearOptions[data.hearAbout] || data.hearAbout : 'No especificado';
+    
+    const message = [
+      `🌟 *${t('booking.title')}* 🌟`,
+      ``,
+      `📋 *${t('booking.step1Title')}:*`,
+      `• ${t('booking.flightType')}: ${t(`packages.${data.flightType}.name`)}`,
+      `• ${t('booking.people')}: ${data.people}`,
+      `• ${t('booking.date')}: ${data.date}`,
+      `• ${t('booking.time')}: ${t(`booking.timeSlots.${data.timeSlot}`)}`,
+      ``,
+      `👤 *${t('booking.step2Title')}:*`,
+      `• ${t('booking.name')}: ${data.name}`,
+      `• ${t('booking.email')}: ${data.email}`,
+      `• ${t('booking.whatsapp')}: +52 ${data.whatsapp}`,
+      `• ${t('booking.weight')}: ${data.weight} kg`,
+      data.medical ? `• ${t('booking.medical')}: ${data.medical}` : '',
+      `• ${t('booking.hearAbout')}: ${hearAboutText}`,
+      ``,
+      `🎁 *${t('booking.step3Title')}:*`,
+      data.goproPhotos ? `• ✅ ${t('booking.goproPhotos')}` : `• ❌ ${t('booking.goproPhotos')}`,
+      data.goproVideo ? `• ✅ ${t('booking.goproVideo')}` : `• ❌ ${t('booking.goproVideo')}`,
+      data.privateTransport ? `• ✅ ${t('booking.privateTransport')}` : `• ❌ ${t('booking.privateTransport')}`,
+      data.certificate ? `• ✅ ${t('booking.certificate')}` : `• ❌ ${t('booking.certificate')}`,
+      ``,
+      `💰 *${t('booking.total')}:* $${total.toLocaleString()} MXN`,
+      ``,
+      `💳 *${t('booking.deposit')}*`,
+    ].filter(Boolean).join('\n');
+
+    // Número de WhatsApp (sin el +, solo dígitos)
+    const phoneNumber = '525554070103';
+    
+    // Crear URL de WhatsApp
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    
+    // Lanzar confetti
     confetti({ particleCount: 150, spread: 70, origin: { y: 0.6 } });
+    
+    // Abrir WhatsApp en nueva pestaña después de un pequeño delay para que se vea el confetti
+    setTimeout(() => {
+      window.open(whatsappUrl, '_blank');
+    }, 500);
+    
     setSubmitted(true);
   };
 
@@ -142,13 +186,19 @@ export default function BookingPage() {
         <SEOHead title={seoCopy.title} description={seoCopy.desc} pathEs="/reservar" pathEn="/en/book" />
         <section className="min-h-[70vh] flex items-center justify-center px-4">
           <div className="max-w-md w-full text-center">
-            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-              <Check className="w-8 h-8 text-green-600" />
-            </div>
+            <motion.div
+              initial={{ scale: 0 }}
+              animate={{ scale: 1 }}
+              transition={{ type: "spring", stiffness: 200, damping: 20 }}
+            >
+              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Check className="w-8 h-8 text-green-600" />
+              </div>
+            </motion.div>
             <h1 className="font-heading font-bold text-3xl text-dark-900">{t('booking.successTitle')}</h1>
             <p className="mt-4 text-dark-600 leading-relaxed">{t('booking.successMessage')}</p>
             <a
-              href="https://wa.me/5217220000000"
+              href="https://wa.me/525554070103"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-8 inline-flex items-center gap-2 px-6 py-4 bg-green-500 text-white rounded-xl font-semibold hover:bg-green-600 transition-colors text-base"
@@ -176,13 +226,15 @@ export default function BookingPage() {
           <div className="flex items-center justify-center gap-2 mb-8">
             {[1, 2, 3].map(s => (
               <div key={s} className="flex items-center gap-2">
-                <div
+                <motion.div
                   className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold transition-colors ${
                     step >= s ? 'bg-primary-500 text-white' : 'bg-dark-200 text-dark-400'
                   }`}
+                  animate={{ scale: step === s ? 1.1 : 1 }}
+                  transition={{ type: "spring", stiffness: 300, damping: 20 }}
                 >
                   {s}
-                </div>
+                </motion.div>
                 {s < 3 && (
                   <div className={`w-10 sm:w-16 h-0.5 transition-colors ${step > s ? 'bg-primary-500' : 'bg-dark-200'}`} />
                 )}
@@ -524,7 +576,7 @@ export default function BookingPage() {
               {/* Below form */}
               <div className="mt-4 text-center">
                 <a
-                  href="https://wa.me/5217220000000"
+                  href="https://wa.me/525554070103"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-sm text-green-600 hover:text-green-700 transition-colors py-2"

@@ -43,7 +43,7 @@ export default function BlogIndex() {
 
       <section className="relative h-[50vh] min-h-[350px] flex items-center justify-center overflow-hidden">
         <img
-          src="/img/blog-hero.jpg"
+          src="/img/blog.png"
           alt={lang === 'es' ? 'Blog parapente valle de bravo' : 'Paragliding blog valle de bravo'}
           className="absolute inset-0 w-full h-full object-cover"
           loading="eager"

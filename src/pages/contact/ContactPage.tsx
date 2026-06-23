@@ -32,7 +32,26 @@ export default function ContactPage() {
   });
 
   const onSubmit = (data: FormData) => {
-    console.log('Contact form submitted:', data);
+    // Construir el mensaje para WhatsApp
+    const subjectLabels = t('contact.subjectOptions', { returnObjects: true }) as Record<string, string>;
+    const subjectText = data.subject ? subjectLabels[data.subject] || data.subject : 'No especificado';
+    
+    const whatsappMessage = [
+      `*${t('contact.name')}:* ${data.name}`,
+      `*${t('contact.email')}:* ${data.email}`,
+      `*${t('contact.subject')}:* ${subjectText}`,
+      `*${t('contact.message')}:* ${data.message}`,
+    ].join('\n');
+
+    // Número de WhatsApp (sin el +, solo dígitos)
+    const phoneNumber = '525554070103';
+    
+    // Crear URL de WhatsApp
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+    
+    // Abrir WhatsApp en nueva pestaña
+    window.open(whatsappUrl, '_blank');
+    
     setSubmitted(true);
   };
 
@@ -69,7 +88,7 @@ export default function ContactPage() {
 
       <section className="relative h-[40vh] min-h-[300px] flex items-center justify-center overflow-hidden">
         <img
-          src="/img/contact-hero.jpg"
+          src="/img/contacto.png"
           alt={lang === 'es' ? 'Contacto parapente valle de bravo' : 'Contact paragliding valle de bravo'}
           className="absolute inset-0 w-full h-full object-cover"
           loading="eager"
@@ -137,18 +156,24 @@ export default function ContactPage() {
             <div className="space-y-6">
               <Card hover={false} className="p-6">
                 <h2 className="font-heading font-semibold text-lg text-dark-900 mb-4">{t('contact.address')}</h2>
-                <div className="bg-dark-100 rounded-xl h-48 flex items-center justify-center">
-                  <div className="text-center text-dark-400">
-                    <MapPin className="w-8 h-8 mx-auto mb-2" />
-                    <p className="text-sm">19.1944° N, 100.1323° W</p>
-                    <p className="text-xs mt-1">Valle de Bravo, Edo. México</p>
-                  </div>
+                {/* Mapa de Google */}
+                <div className="rounded-xl overflow-hidden h-48">
+                  <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d235.51504182986704!2d-100.12774660937967!3d19.18468783472183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDExJzA1LjEiTiAxMDDCsDA3JzM5LjMiVw!5e0!3m2!1ses!2smx!4v1782173211437!5m2!1ses!2smx" 
+                    width="100%" 
+                    height="100%" 
+                    style={{ border: 0 }} 
+                    allowFullScreen 
+                    loading="lazy" 
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title={lang === 'es' ? 'Ubicación de VuelaValle' : 'VuelaValle Location'}
+                  />
                 </div>
               </Card>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <a
-                  href="https://wa.me/5217220000000"
+                  href="https://wa.me/+525554070103"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 p-4 bg-green-50 rounded-xl hover:bg-green-100 transition-colors"
@@ -156,7 +181,7 @@ export default function ContactPage() {
                   <MessageCircle className="w-6 h-6 text-green-600" />
                   <div>
                     <p className="text-sm font-medium text-dark-900">{t('contact.whatsappLabel')}</p>
-                    <p className="text-xs text-dark-500">+52 722 XXX XXXX</p>
+                    <p className="text-xs text-dark-500">+52 55 5407 0103</p>
                   </div>
                 </a>
                 <a
@@ -180,7 +205,7 @@ export default function ContactPage() {
                   <Phone className="w-6 h-6 text-dark-500" />
                   <div>
                     <p className="text-sm font-medium text-dark-900">{lang === 'es' ? 'Teléfono' : 'Phone'}</p>
-                    <p className="text-xs text-dark-500">+52 722 XXX XXXX</p>
+                    <p className="text-xs text-dark-500">+52 55 5407 0103</p>
                   </div>
                 </div>
               </div>

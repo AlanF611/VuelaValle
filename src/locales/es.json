@@ -11,7 +11,7 @@
   },
   "hero": {
     "title": "Vuela sobre el cielo de Valle de Bravo",
-    "subtitle": "Pilotos certificados \u00b7 Vuelos t\u00e1ndem",
+    "subtitle": "Pilotos certificados \u00b7 Vuelos Clásico",
     "cta1": "Reservar vuelo \u2192",
     "cta2": "Ver experiencias",
     "stats1": "500+ vuelos al a\u00f1o",
@@ -28,18 +28,17 @@
     "title": "Elige tu experiencia de vuelo",
     "classic": {
       "name": "Vuelo Cl\u00e1sico",
-      "duration": "20 min de vuelo t\u00e1ndem",
-      "features": ["Vuelo t\u00e1ndem de 20 min", "Transporte al despegue La Torre", "Instructor certificado"],
+      "duration": "20 min de vuelo Clásico",
+      "features": ["Vuelo Clásico de 20 min", "Transporte al despegue La Torre", "Instructor certificado"],
       "goodFor": "Ideal para primeras veces y familias",
-      "price": "$1,200"
+      "price": "$1,900"
     },
     "sunset": {
-      "name": "Vuelo Sunset",
+      "name": "Vuelo desde el peñon",
       "badge": "M\u00e1s Popular",
       "duration": "35 min al atardecer",
-      "features": ["Vuelo t\u00e1ndem de 35 min al atardecer", "Fotos y video GoPro HD"],
-      "goodFor": "Perfecto para parejas y ocasiones especiales",
-      "price": "$1,800"
+      "features": ["Vuelo Clásico de 35 min al atardecer", "Fotos y video GoPro HD"],
+      "price": "$2,900 "
     },
     "xc": {
       "name": "Experiencia XC",
@@ -60,7 +59,7 @@
   "gallery": {
     "title": "Galer\u00eda de vuelos",
     "all": "Todos",
-    "tandem": "T\u00e1ndem",
+    "tandem": "Clásico",
     "sunset": "Sunset",
     "xc": "XC"
   },
@@ -77,13 +76,13 @@
   "faq": {
     "title": "Preguntas frecuentes",
     "q1": "\u00bfEs seguro volar en parapente?",
-    "a1": "S\u00ed, volar en parapente t\u00e1ndem es una actividad muy segura. Todos nuestros pilotos est\u00e1n certificados por la AVLM y APPI, y contamos con seguro de vuelo para cada pasajero. Revisamos el equipo antes de cada vuelo y solo volamos cuando las condiciones meteorol\u00f3gicas son ideales.",
+    "a1": "S\u00ed, volar en parapente Clásico es una actividad muy segura. Todos nuestros pilotos est\u00e1n certificados por la AVLM y APPI, y contamos con seguro de vuelo para cada pasajero. Revisamos el equipo antes de cada vuelo y solo volamos cuando las condiciones meteorol\u00f3gicas son ideales.",
     "q2": "\u00bfNecesito experiencia previa?",
-    "a2": "No, para los vuelos t\u00e1ndem no necesitas ninguna experiencia. Tu piloto se encarga de todo: despegue, vuelo y aterrizaje. Solo necesitas seguir instrucciones simples y disfrutar la vista.",
+    "a2": "No, para los vuelos Clásico no necesitas ninguna experiencia. Tu piloto se encarga de todo: despegue, vuelo y aterrizaje. Solo necesitas seguir instrucciones simples y disfrutar la vista.",
     "q3": "\u00bfQu\u00e9 incluye el precio?",
-    "a3": "Todos nuestros vuelos incluyen transporte al despegue, seguro de vuelo, equipo completo y un instructor certificado. El Vuelo Sunset incluye adem\u00e1s fotos y video GoPro, y el XC incluye video INSTA360 y transporte privado.",
+    "a3": "Todos nuestros vuelos incluyen transporte al despegue, seguro de vuelo, equipo completo y un instructor certificado. El Vuelo desde el peñon incluye adem\u00e1s fotos y video GoPro, y el XC incluye video INSTA360 y transporte privado.",
     "q4": "\u00bfCu\u00e1nto dura el vuelo?",
-    "a4": "El Vuelo Cl\u00e1sico dura 20 minutos, el Vuelo Sunset 35 minutos, y la Experiencia XC entre 45 y 60 minutos. Los tiempos pueden variar seg\u00fan condiciones de vuelo.",
+    "a4": "El Vuelo Cl\u00e1sico dura 20 minutos, el Vuelo desde el peñon 35 minutos, y la Experiencia XC entre 45 y 60 minutos. Los tiempos pueden variar seg\u00fan condiciones de vuelo.",
     "q5": "\u00bfQu\u00e9 debo llevar?",
     "a5": "Ropa c\u00f3moda, zapatos cerrados, protector solar y una actitud aventurera. Te proporcionamos todo el equipo t\u00e9cnico necesario. En invierno te sugerimos traer una chaqueta ligera.",
     "q6": "\u00bfPuedo cancelar mi reserva?",
@@ -250,10 +249,10 @@
   "alt": {
     "hero": "Parapente sobre Valle de Bravo al atardecer",
     "classic": "Vuelo cl\u00e1sico en parapente sobre Valle de Bravo",
-    "sunset": "Vuelo sunset en parapente sobre Valle de Bravo",
+    "sunset": "Vuelo desde el peñon en parapente sobre Valle de Bravo",
     "xc": "Vuelo cross-country en parapente Valle de Bravo",
     "gallery1": "Parapente volando sobre el lago de Valle de Bravo",
-    "gallery2": "Parapente t\u00e1ndem en Valle de Bravo atardecer",
+    "gallery2": "Parapente Clásico en Valle de Bravo atardecer",  
     "gallery3": "Vista a\u00e9rea del lago Valle de Bravo parapente",
     "gallery4": "Monta\u00f1as alrededor de Valle de Bravo parapente",
     "gallery5": "Paisaje panor\u00e1mico Valle de Bravo vuelo libre",

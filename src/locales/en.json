@@ -31,15 +31,14 @@
       "duration": "20 min tandem flight",
       "features": ["20 min tandem flight", "Transport to La Torre launch", "Certified instructor"],
       "goodFor": "Perfect for first-timers and families",
-      "price": "$1,200"
+      "price": "$1,900"
     },
     "sunset": {
-      "name": "Sunset Flight",
+      "name": "Peñon Flight",
       "badge": "Most Popular",
-      "duration": "35 min at sunset",
-      "features": ["35 min tandem flight at sunset", "GoPro HD photos & video", "Flight certificate"],
+      "features": ["35 min tandem flight at Peñon", "GoPro HD photos & video", "Flight certificate"],
       "goodFor": "Great for couples and special occasions",
-      "price": "$1,800"
+      "price": "2,900"
     },
     "xc": {
       "name": "XC Experience",
@@ -60,7 +59,6 @@
   "gallery": {
     "title": "Flight gallery",
     "all": "All",
-    "tandem": "Tandem",
     "sunset": "Sunset",
     "xc": "XC",
     "courses": "Courses"
@@ -82,9 +80,9 @@
     "q2": "Do I need previous experience?",
     "a2": "No, you don't need any experience for tandem flights. Your pilot handles everything: takeoff, flight, and landing. You just need to follow simple instructions and enjoy the view.",
     "q3": "What does the price include?",
-    "a3": "All our flights include transport to the launch site, flight insurance, complete equipment, and a certified instructor. The Sunset Flight also includes GoPro photos and video, and the XC includes INSTA360 video and private transport.",
+    "a3": "All our flights include transport to the launch site, flight insurance, complete equipment, and a certified instructor. The Peñon Flight also includes GoPro photos and video, and the XC includes INSTA360 video and private transport.",
     "q4": "How long is the flight?",
-    "a4": "The Classic Flight lasts 20 minutes, the Sunset Flight 35 minutes, and the XC Experience between 45 and 60 minutes. Times may vary depending on flight conditions.",
+    "a4": "The Classic Flight lasts 20 minutes, the Peñon Flight 35 minutes, and the XC Experience between 45 and 60 minutes. Times may vary depending on flight conditions.",
     "q5": "What should I bring?",
     "a5": "Comfortable clothing, closed shoes, sunscreen, and an adventurous attitude. We provide all the technical equipment you need. In winter we suggest bringing a light jacket.",
     "q6": "Can I cancel my booking?",

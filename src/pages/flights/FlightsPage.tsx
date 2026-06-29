@@ -39,7 +39,7 @@ export default function FlightsPage() {
     {
       name: lang === 'es' ? 'La Torre' : 'La Torre',
       description: lang === 'es'
-        ? 'Despegue sobre el pueblo de Valle de Bravo. Vistas panorámicas del lago y del pueblo. Ideal para vuelos tándem y primeras experiencias. Acceso directo desde el centro de Valle.'
+        ? 'Despegue sobre el pueblo de Valle de Bravo. Vistas panorámicas del lago y del pueblo. Ideal para vuelos Clásicoy primeras experiencias. Acceso directo desde el centro de Valle.'
         : 'Launch site above the town of Valle de Bravo. Panoramic views of the lake and town. Ideal for tandem flights and first experiences. Direct access from downtown Valle.',
       elevation: lang === 'es' ? '2,200 msnm' : '2,200 m ASL',
     },
@@ -58,12 +58,12 @@ export default function FlightsPage() {
     { question: t('faq.q3'), answer: t('faq.a3') },
     { question: t('faq.q4'), answer: t('faq.a4') },
   ];
-
+  
   return (
     <main className="pt-16 lg:pt-20">
       <SEOHead
-        title={lang === 'es' ? 'Vuelos en Parapente Valle de Bravo | Tándem, Sunset y XC | VuelaValle' : 'Paragliding Flights Valle de Bravo | Tandem, Sunset & XC | VuelaValle'}
-        description={lang === 'es' ? 'Vuelos en parapente tándem en Valle de Bravo. Clásico $1,200, Sunset $1,800, XC $2,800. Pilotos certificados. Reserva en línea.' : 'Tandem paragliding flights in Valle de Bravo. Classic $1,200, Sunset $1,800, XC $2,800. Certified pilots. Book online.'}
+        title={lang === 'es' ? 'Vuelos en Parapente Valle de Bravo | Clásico, Sunset y XC | VuelaValle' : 'Paragliding Flights Valle de Bravo | Tandem, Sunset & XC | VuelaValle'}
+        description={lang === 'es' ? 'Vuelos en parapente Clásicoen Valle de Bravo. Clásico $1,900, Sunset $1,800, XC $2,800. Pilotos certificados. Reserva en línea.' : 'Tandem paragliding flights in Valle de Bravo. Classic $1,900, Sunset $1,800, XC $2,800. Certified pilots. Book online.'}
         pathEs="/parapente-valle-de-bravo"
         pathEn="/en/paragliding-valle-de-bravo"
         ogImage="/img/hero1.jpeg"
@@ -125,7 +125,6 @@ export default function FlightsPage() {
                         </li>
                       ))}
                     </ul>
-                    <p className="mt-4 text-sm text-dark-400 italic">{t(`packages.${id}.goodFor`)}</p>
                     <div className="mt-6 flex items-end gap-4">
                       <div>
                         <span className="font-heading font-bold text-3xl text-dark-900">{t(`packages.${id}.price`)}</span>

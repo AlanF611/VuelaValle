@@ -76,19 +76,20 @@ export default function HomePage() {
         description={t('hero.subtitle')}
         pathEs="/"
         pathEn="/en"
-        ogImage="/img/hero1.jpeg"
+        ogImage="/img/herocolor.jpg"
       />
 
       {/* ── HERO ── */}
       <section className="relative min-h-[100svh] flex items-center justify-center overflow-hidden">
         <img
-          src="/img/hero1.jpeg"
+          src="/img/herocolor.jpg"
           alt={t('alt.hero')}
           className="absolute inset-0 w-full h-full object-cover object-center"
           loading="eager"
           fetchPriority="high"
         />
-        <div className="absolute inset-0 gradient-hero" />
+        {/* Overlay eliminado - la imagen se ve completamente natural */}
+        {/* <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/40 to-black/70" /> */}
 
         <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8 text-center py-24 sm:py-32">
           <motion.h1

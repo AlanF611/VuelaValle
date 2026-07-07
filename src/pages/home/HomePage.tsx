@@ -1,266 +1,439 @@
-{
-  "nav": {
-    "home": "Inicio",
-    "flights": "Experiencias",
-    "gallery": "Galer\u00eda",
-    "instructors": "Instructores",
-    "blog": "Blog",
-    "contact": "Contacto",
-    "book": "Reservar",
-    "bookNow": "Reservar ahora"
-  },
-  "hero": {
-    "title": "Vuela sobre el lago de Valle De Bravo",
-    "subtitle": "Pilotos certificados \u00b7 Vuelos Clásico",
-    "cta1": "Reservar vuelo \u2192",
-    "cta2": "Ver experiencias",
-    "stats1": "500+ vuelos al a\u00f1o",
-    "stats2": "4.9\u2605 calificaci\u00f3n",
-    "stats3": "10+ a\u00f1os de experiencia"
-  },
-  "trust": {
-    "certified": "Pilotos certificados",
-    "gopro": "Fotos y video GoPro",
-    "transport": "Transporte al despegue",
-    "booking": "Reserva online 24/7"
-  },
-  "packages": {
-    "title": "Elige tu experiencia de vuelo",
-    "classic": {
-      "name": "Vuelo Cl\u00e1sico",
-      "duration": "20 min de vuelo Clásico",
-      "features": ["Vuelo Clásico de 20 min", "Transporte al despegue La Torre", "Instructor certificado"],
-      "goodFor": "Ideal para primeras veces y familias",
-      "price": "$1,900"
-    },
-    "sunset": {
-      "name": "Vuelo desde el peñon",
-      "badge": "M\u00e1s Popular",
-      "duration": "35 min al atardecer",
-      "features": ["Vuelo Clásico de 35 min al atardecer", "Fotos y video GoPro HD"],
-      "price": "$2,900 "
-    },
-    "xc": {
-      "name": "Experiencia XC",
-      "duration": "45-60 min vuelo cross-country",
-      "features": ["Vuelo cross-country 45-60 min", "Video INSTA360", "Transporte"],
-      "goodFor": "Para aventureros y pilotos con experiencia",
-      "price": "$2,800"
-    },
-    "bookButton": "Reservar este vuelo"
-  },
-  "howItWorks": {
-    "title": "C\u00f3mo funciona",
-    "step1": "Elige tu vuelo y fecha",
-    "step2": "Confirma con anticipo de $500",
-    "step3": "Te recogemos en Valle de Bravo",
-    "step4": "\u00a1Vuela y ll\u00e9vate tus fotos!"
-  },
-  "gallery": {
-    "title": "Galer\u00eda de vuelos",
-    "all": "Todos",
-    "tandem": "Clásico",
-    "sunset": "Sunset",
-    "xc": "XC"
-  },
-  "instructors": {
-    "title": "Conoce a nuestros pilotos",
-    "years": "a\u00f1os",
-    "flights": "vuelos",
-    "certifications": "Certificaciones",
-    "specialty": "Especialidad"
-  },
-  "reviews": {
-    "title": "Lo que dicen quienes ya volaron"
-  },
-  "faq": {
-    "title": "Preguntas frecuentes",
-    "q1": "\u00bfEs seguro volar en parapente?",
-    "a1": "S\u00ed, volar en parapente Clásico es una actividad muy segura. Todos nuestros pilotos est\u00e1n certificados por la AVLM y APPI, y contamos con seguro de vuelo para cada pasajero. Revisamos el equipo antes de cada vuelo y solo volamos cuando las condiciones meteorol\u00f3gicas son ideales.",
-    "q2": "\u00bfNecesito experiencia previa?",
-    "a2": "No, para los vuelos Clásico no necesitas ninguna experiencia. Tu piloto se encarga de todo: despegue, vuelo y aterrizaje. Solo necesitas seguir instrucciones simples y disfrutar la vista.",
-    "q3": "\u00bfQu\u00e9 incluye el precio?",
-    "a3": "Todos nuestros vuelos incluyen transporte al despegue, seguro de vuelo, equipo completo y un instructor certificado. El Vuelo desde el peñon incluye adem\u00e1s fotos y video GoPro, y el XC incluye video INSTA360 y transporte privado.",
-    "q4": "\u00bfCu\u00e1nto dura el vuelo?",
-    "a4": "El Vuelo Cl\u00e1sico dura 20 minutos, el Vuelo desde el peñon 35 minutos, y la Experiencia XC entre 45 y 60 minutos. Los tiempos pueden variar seg\u00fan condiciones de vuelo.",
-    "q5": "\u00bfQu\u00e9 debo llevar?",
-    "a5": "Ropa c\u00f3moda, zapatos cerrados, protector solar y una actitud aventurera. Te proporcionamos todo el equipo t\u00e9cnico necesario. En invierno te sugerimos traer una chaqueta ligera.",
-    "q6": "\u00bfPuedo cancelar mi reserva?",
-    "a6": "S\u00ed, puedes cancelar hasta 24 horas antes del vuelo sin costo. Si las condiciones meteorol\u00f3gicas no permiten volar, reprogramamos tu vuelo sin cargo adicional.",
-    "q7": "\u00bfHay l\u00edmite de edad o peso?",
-    "a7": "La edad m\u00ednima es 6 a\u00f1os (con autorizaci\u00f3n de padre/tutor). El peso m\u00e1ximo es 110 kg. No hay l\u00edmite de edad superior \u2014 \u00a1nuestro pasajero m\u00e1s longevo ten\u00eda 82 a\u00f1os!",
-    "q8": "\u00bfEn qu\u00e9 \u00e9poca del a\u00f1o se puede volar?",
-    "a8": "Volamos todo el a\u00f1o, pero la mejor temporada es de octubre a mayo, cuando las condiciones t\u00e9rmicas son ideales. Valle de Bravo ha sido sede de la Copa del Mundo de Parapente 5 veces gracias a sus condiciones de vuelo de clase mundial."
-  },
-  "booking": {
-    "title": "Reservar vuelo",
-    "step1Title": "Elige tu vuelo",
-    "step2Title": "Tus datos",
-    "step3Title": "Confirmar",
-    "flightType": "Tipo de vuelo",
-    "people": "N\u00famero de personas",
-    "date": "Fecha preferida",
-    "time": "Horario preferido",
-    "name": "Nombre completo",
-    "email": "Correo electr\u00f3nico",
-    "whatsapp": "WhatsApp",
-    "weight": "Peso (kg)",
-    "medical": "Condiciones m\u00e9dicas (opcional)",
-    "hearAbout": "\u00bfC\u00f3mo nos conociste?",
-    "addOns": "Extras",
-    "goproPhotos": "Fotos GoPro +$300",
-    "goproVideo": "Video GoPro +$300",
-    "privateTransport": "Transporte privado +$200",
-    "certificate": "Certificado conmemorativo +$150",
-    "summary": "Resumen de reserva",
-    "selectedPackage": "Paquete seleccionado",
-    "dateAndTime": "Fecha y hora",
-    "peopleCount": "Personas",
-    "extras": "Extras",
-    "subtotal": "Subtotal",
-    "total": "Total",
-    "deposit": "Anticipo requerido: $500 MXN",
-    "confirmButton": "Confirmar reservaci\u00f3n \u2192",
-    "successTitle": "\u00a1Reservaci\u00f3n confirmada!",
-    "successMessage": "Te contactaremos por WhatsApp para confirmar los detalles y el pago del anticipo.",
-    "whatsappCta": "\u00bfPrefieres reservar por WhatsApp?",
-    "cancellationPolicy": "Pol\u00edtica de cancelaci\u00f3n",
-    "cancellationText": "Puedes cancelar hasta 24 horas antes del vuelo sin costo. Si las condiciones meteorol\u00f3gicas no permiten volar, reprogramamos sin cargo adicional.",
-    "validation": {
-      "nameRequired": "El nombre es obligatorio",
-      "emailRequired": "El correo electr\u00f3nico es obligatorio",
-      "emailInvalid": "Correo electr\u00f3nico no v\u00e1lido",
-      "whatsappRequired": "El n\u00famero de WhatsApp es obligatorio",
-      "weightRequired": "El peso es obligatorio para tu seguridad",
-      "weightMax": "Peso m\u00e1ximo 110 kg",
-      "dateRequired": "La fecha es obligatoria",
-      "flightTypeRequired": "Selecciona un tipo de vuelo"
-    },
-    "timeSlots": {
-      "7am": "7:00 am",
-      "9am": "9:00 am",
-      "11am": "11:00 am",
-      "2pm": "2:00 pm"
-    },
-    "hearOptions": {
-      "google": "Google",
-      "instagram": "Instagram",
-      "friend": "Amigo/Familiar",
-      "tripadvisor": "TripAdvisor",
-      "other": "Otro"
-    }
-  },
-  "courses": {
-    "subtitle": "Aprende a volar con los mejores instructores de Valle de Bravo",
-    "beginner": {
-      "name": "Iniciaci\u00f3n",
-      "duration": "5 d\u00edas",
-      "price": "$8,500",
-      "description": "Tu primer paso como piloto. Aprende las bases del vuelo en parapente, desde el control en suelo hasta tus primeros vuelos supervisados.",
-      "includes": ["Material did\u00e1ctico", "Equipo completo durante el curso", "Vuelos supervisados en ladera", "Seguro de vuelo", "Certificado AVLM de iniciaci\u00f3n", "M\u00e1ximo 4 alumnos por grupo"],
-      "schedule": ["D\u00eda 1: Teor\u00eda y control en suelo", "D\u00eda 2: Primeros despegues en ladera", "D\u00eda 3: Vuelos cortos supervisados", "D\u00eda 4: Pr\u00e1ctica de aterrizaje y control", "D\u00eda 5: Vuelos progresivos"]
-    },
-    "pilot": {
-      "name": "Piloto",
-      "duration": "10 d\u00edas",
-      "price": "$15,000",
-      "description": "Formaci\u00f3n completa para obtener tu licencia de piloto. Incluye t\u00e9cnicas de vuelo t\u00e9rmico, navegaci\u00f3n y procedimientos de emergencia.",
-      "includes": ["Todo lo del curso Iniciaci\u00f3n", "Vuelos t\u00e9rmicos", "Navegaci\u00f3n y planificaci\u00f3n", "Procedimientos de emergencia", "Licencia AVLM Piloto", "Manual del piloto"],
-      "schedule": ["D\u00edas 1-5: Programa Iniciaci\u00f3n", "D\u00eda 6: Vuelo t\u00e9rmico te\u00f3rico", "D\u00eda 7: Primeros vuelos t\u00e9rmicos", "D\u00eda 8: Navegaci\u00f3n y XC", "D\u00eda 9: Simulaci\u00f3n de emergencias", "D\u00eda 10: Examen y vuelo final"]
-    },
-    "advanced": {
-      "name": "Perfeccionamiento XC",
-      "duration": "7 d\u00edas",
-      "price": "$12,000",
-      "description": "Para pilotos con licencia que buscan mejorar sus habilidades de cross-country en uno de los mejores sitios del mundo.",
-      "includes": ["An\u00e1lisis de condiciones t\u00e9rmicas", "Estrategia XC", "Uso de instrumentos (vari\u00f3metro, GPS)", "Debriefing con video", "Vuelos guiados XC", "Transporte a El Pe\u00f1\u00f3n"],
-      "schedule": ["D\u00eda 1: Evaluaci\u00f3n y planificaci\u00f3n", "D\u00eda 2-3: T\u00e9rmicas en La Torre", "D\u00eda 4-5: XC desde El Pe\u00f1\u00f3n", "D\u00eda 6: Vuelo largo XC", "D\u00eda 7: Debriefing final y certificaci\u00f3n"]
-    },
-    "certification": "Certificaci\u00f3n"
-  },
-  "contact": {
-    "title": "Contacto",
-    "subtitle": "Escr\u00edbenos y te respondemos en menos de 24 horas",
-    "name": "Nombre",
-    "email": "Correo electr\u00f3nico",
-    "subject": "Asunto",
-    "message": "Mensaje",
-    "send": "Enviar mensaje",
-    "address": "5 de Mayo 307 Valle de Bravo Estado de México",
-    "hours": "Lunes a Domingo: 7:00 am - 6:00 pm",
-    "emailLabel": "Correo",
-    "whatsappLabel": "WhatsApp",
-    "subjectOptions": {
-      "flight": "Consulta sobre vuelos",
-      "group": "Grupos y eventos",
-      "other": "Otro"
-    },
-    "validation": {
-      "nameRequired": "El nombre es obligatorio",
-      "emailRequired": "El correo es obligatorio",
-      "messageRequired": "El mensaje es obligatorio"
-    },
-    "successTitle": "\u00a1Mensaje enviado!",
-    "successMessage": "Te responderemos en menos de 24 horas."
-  },
-  "blog": {
-    "title": "Blog de Parapente",
-    "subtitle": "Gu\u00edas, consejos y todo lo que necesitas saber sobre el parapente en Valle de Bravo",
-    "readMore": "Leer m\u00e1s",
-    "minRead": "min de lectura",
-    "related": "Art\u00edculos relacionados",
-    "share": "Compartir",
-    "toc": "Contenido"
-  },
-  "why": {
-    "title": "\u00bfPor qu\u00e9 VuelaValle?",
-    "reason1Title": "Especializaci\u00f3n total",
-    "reason1Text": "Solo volamos. No hacemos tours gen\u00e9ricos ni actividades tur\u00edsticas. Cada d\u00eda perfeccionamos nuestro arte, y eso se nota en cada vuelo.",
-    "reason2Title": "Pilotos con +1,000 vuelos",
-    "reason2Text": "Cada uno de nuestros instructores ha completado m\u00e1s de 1,000 vuelos. La experiencia no se improvisa, y tu seguridad depende de ella.",
-    "reason3Title": "Destino de clase mundial",
-    "reason3Text": "Valle de Bravo ha sido sede de la Copa del Mundo de Parapente en 5 ocasiones. Las condiciones t\u00e9rmicas y el paisaje lo convierten en uno de los mejores sitios del planeta para volar."
-  },
-  "numbers": {
-    "flights": "Vuelos al a\u00f1o",
-    "rating": "Calificaci\u00f3n promedio",
-    "years": "A\u00f1os de experiencia",
-    "pilots": "Pilotos certificados"
-  },
-  "cta": {
-    "title": "\u00bfListo para volar?",
-    "subtitle": "Reserva tu vuelo hoy y vive la experiencia de tu vida.",
-    "button": "Reservar vuelo \u2192"
-  },
-  "footer": {
-    "tagline": "Especialistas en vuelo sobre Valle de Bravo",
-    "pages": "P\u00e1ginas",
-    "contactTitle": "Contacto",
-    "legal": "Legal",
-    "privacy": "Aviso de privacidad",
-    "terms": "T\u00e9rminos y condiciones",
-    "copyright": "\u00a9 2026 VuelaValle. Todos los derechos reservados.",
-    "social": "S\u00edguenos"
-  },
-  "whatsapp": {
-    "tooltip": "Reserva por WhatsApp",
-    "book": "Reservar vuelo \u2192"
-  },
-  "alt": {
-    "hero": "Parapente sobre Valle de Bravo al atardecer",
-    "classic": "Vuelo cl\u00e1sico en parapente sobre Valle de Bravo",
-    "sunset": "Vuelo desde el peñon en parapente sobre Valle de Bravo",
-    "xc": "Vuelo cross-country en parapente Valle de Bravo",
-    "gallery1": "Parapente volando sobre el lago de Valle de Bravo",
-    "gallery2": "Parapente Clásico en Valle de Bravo atardecer",  
-    "gallery3": "Vista a\u00e9rea del lago Valle de Bravo parapente",
-    "gallery4": "Monta\u00f1as alrededor de Valle de Bravo parapente",
-    "gallery5": "Paisaje panor\u00e1mico Valle de Bravo vuelo libre",
-    "gallery6": "Parapente despegando en Valle de Bravo",
-    "gallery7": "Atardecer sobre Valle de Bravo parapente",
-    "gallery8": "Vuelo en parapente sobre bosques Valle de Bravo",
-    "instructor": "Instructor de parapente certificado Valle de Bravo"
-  },
-  "skipToContent": "Ir al contenido principal",
-  "languageSwitch": "EN"
+import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+import { motion, useReducedMotion, useInView } from 'framer-motion';
+import { useRef } from 'react';
+import { ShieldCheck, Camera, Car, Clock, ChevronDown, Star, Check } from 'lucide-react';
+import SEOHead from '../../components/seo/SEOHead';
+import Button from '../../components/ui/Button';
+import Badge from '../../components/ui/Badge';
+import Card from '../../components/ui/Card';
+import StarRating from '../../components/ui/StarRating';
+import { useCountUp } from '../../hooks/useCountUp';
+import { getLocalizedRoute } from '../../hooks/useLanguage';
+import { reviews } from '../../data/reviews';
+import { flightPackages } from '../../data/packages';
+import { blogPosts } from '../../data/blogPosts';
+
+function FadeIn({
+  children,
+  className = '',
+  delay = 0,
+}: {
+  children: React.ReactNode;
+  className?: string;
+  delay?: number;
+}) {
+  const ref = useRef(null);
+  const inView = useInView(ref, { once: true, margin: '-40px' });
+  const shouldReduce = useReducedMotion();
+
+  return (
+    <motion.div
+      ref={ref}
+      initial={shouldReduce ? {} : { opacity: 0, y: 24 }}
+      animate={inView ? { opacity: 1, y: 0 } : {}}
+      transition={{ duration: shouldReduce ? 0 : 0.55, delay, ease: 'easeOut' }}
+      className={className}
+    >
+      {children}
+    </motion.div>
+  );
+}
+
+export default function HomePage() {
+  const { t, i18n: i18nInstance } = useTranslation();
+  const lang = i18nInstance.language as 'es' | 'en';
+
+  const stat1 = useCountUp(500);
+  const stat2 = useCountUp(10);
+  const stat3 = useCountUp(10);
+
+  const trustItems = [
+    { icon: ShieldCheck, text: t('trust.certified') },
+    { icon: Camera, text: t('trust.gopro') },
+    { icon: Car, text: t('trust.transport') },
+    { icon: Clock, text: t('trust.booking') },
+  ];
+
+  const packageIds: Array<'classic' | 'sunset' | 'xc'> = ['classic', 'sunset', 'xc'];
+
+  const whyReasons = [
+    { title: t('why.reason1Title'), text: t('why.reason1Text') },
+    { title: t('why.reason2Title'), text: t('why.reason2Text') },
+    { title: t('why.reason3Title'), text: t('why.reason3Text') },
+  ];
+
+  const filteredBlogPosts = blogPosts.filter(p => p.lang === lang).slice(0, 3);
+
+  return (
+    <main id="main-content">
+      <SEOHead
+        title={
+          lang === 'es'
+            ? 'Parapente en Valle de Bravo | VuelaValle | Especialistas en Vuelo'
+            : 'Paragliding in Valle de Bravo | VuelaValle | Flight Specialists'
+        }
+        description={t('hero.subtitle')}
+        pathEs="/"
+        pathEn="/en"
+        ogImage="/img/herocolor.jpg"
+      />
+
+      {/* ── HERO ── */}
+      <section className="relative min-h-[100svh] flex items-center justify-center overflow-hidden">
+        <img
+          src="/img/herocolor.jpg"
+          alt={t('alt.hero')}
+          className="absolute inset-0 w-full h-full object-cover object-center"
+          loading="eager"
+          fetchPriority="high"
+        />
+        {/* Overlay eliminado - la imagen se ve completamente natural */}
+        {/* <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/40 to-black/70" /> */}
+
+        <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8 text-center py-24 sm:py-32">
+          <motion.h1
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: 'easeOut' }}
+            className="font-heading font-bold text-[clamp(2rem,8vw,5rem)] text-white max-w-4xl mx-auto leading-tight"
+          >
+            {t('hero.title')}
+          </motion.h1>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.6, delay: 0.35 }}
+            className="mt-5 text-base sm:text-xl text-white/80 max-w-xl mx-auto"
+          >
+            {t('hero.subtitle')}
+          </motion.p>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.6 }}
+            className="mt-8 flex flex-col sm:flex-row gap-3 justify-center"
+          >
+            <Link to={getLocalizedRoute('book', lang)}>
+              <Button variant="amber" size="lg" className="w-full sm:w-auto">
+                {t('hero.cta1')}
+              </Button>
+            </Link>
+            <Link to={getLocalizedRoute('flights', lang)}>
+              <Button variant="ghost" size="lg" className="w-full sm:w-auto">
+                {t('hero.cta2')}
+              </Button>
+            </Link>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.9 }}
+            className="mt-8 inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20"
+          >
+            <Star className="w-4 h-4 text-accent-400 fill-accent-400" />
+            <span className="text-white text-sm font-medium">4.9</span>
+            <span className="text-white/50 text-sm">·</span>
+            <span className="text-white/80 text-sm">
+              500+ {lang === 'es' ? 'vuelos este año' : 'flights this year'}
+            </span>
+          </motion.div>
+        </div>
+
+        <motion.div
+          animate={{ y: [0, 8, 0] }}
+          transition={{ repeat: Infinity, duration: 2.2, ease: 'easeInOut' }}
+          className="absolute bottom-6 left-1/2 -translate-x-1/2 pointer-events-none"
+        >
+          <ChevronDown className="w-6 h-6 text-white/40" />
+        </motion.div>
+      </section>
+
+      {/* ── TRUST BAR ── */}
+      <section className="bg-dark-900">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
+          {/* On mobile: 2 columns; md+: 5 columns */}
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-y-4 gap-x-4">
+            {trustItems.map((item, i) => (
+              <FadeIn key={i} delay={i * 0.08}>
+                <div className="flex items-start gap-2.5">
+                  <item.icon className="w-4 h-4 text-primary-400 shrink-0 mt-0.5" />
+                  <span className="text-xs sm:text-sm text-dark-300 font-medium leading-snug">
+                    {item.text}
+                  </span>
+                </div>
+              </FadeIn>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── PACKAGES ── */}
+      <section className="section-padding bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <FadeIn>
+            <h2 className="font-heading font-bold text-3xl sm:text-4xl text-center text-dark-900">
+              {t('packages.title')}
+            </h2>
+          </FadeIn>
+          <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 items-stretch">
+            {packageIds.map((id, i) => {
+              const pkg = flightPackages[id];
+              const features = t(`packages.${id}.features`, {
+                returnObjects: true,
+              }) as string[];
+
+              const gradients: Record<string, string> = {
+                classic: 'from-sky-700 via-primary-600 to-primary-800',
+                sunset:  'from-orange-500 via-rose-600 to-primary-800',
+                xc:      'from-teal-600 via-primary-700 to-dark-800',
+              };
+
+              return (
+                <FadeIn key={id} delay={i * 0.12} className="h-full">
+                  <div className="h-full flex flex-col rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 border border-dark-100 group">
+                    {id === 'sunset' && (
+                      <div className="absolute top-3 right-3 z-10 pointer-events-none">
+                        <Badge>{t('packages.sunset.badge')}</Badge>
+                      </div>
+                    )}
+                    {/* Image with aspect ratio + gradient fallback */}
+                    <div className="relative aspect-[16/9] overflow-hidden shrink-0">
+                      <div className={`absolute inset-0 bg-gradient-to-br ${gradients[id]}`} />
+                      <img
+                        src={pkg.image}
+                        alt={t(`alt.${id}`)}
+                        className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                        loading="lazy"
+                        width={800}
+                        height={450}
+                        onError={(e) => { (e.currentTarget as HTMLImageElement).style.opacity = '0'; }}
+                      />
+                      {/* Dark scrim so text on image is always readable */}
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                      {/* Duration badge on image */}
+                      <div className="absolute bottom-3 left-3 flex items-center gap-1.5 px-2.5 py-1 bg-white/15 backdrop-blur-sm rounded-full border border-white/20">
+                        <Clock className="w-3.5 h-3.5 text-white/90" />
+                        <span className="text-white text-xs font-medium">{t(`packages.${id}.duration`)}</span>
+                      </div>
+                      {id === 'sunset' && (
+                        <div className="absolute top-3 right-3">
+                          <Badge>{t('packages.sunset.badge')}</Badge>
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Body */}
+                    <div className="p-5 sm:p-6 flex flex-col flex-1 bg-white">
+                      <h3 className="font-heading font-bold text-xl text-dark-900">
+                        {t(`packages.${id}.name`)}
+                      </h3>
+                      <ul className="mt-4 space-y-2 flex-1">
+                        {features.map((f, j) => (
+                          <li key={j} className="flex items-start gap-2 text-sm text-dark-600">
+                            <Check className="w-4 h-4 text-primary-500 shrink-0 mt-0.5" />
+                            <span>{f}</span>
+                          </li>
+                        ))}
+                      </ul>
+                      <div className="mt-5 pt-4 border-t border-dark-100 flex items-center justify-between gap-2">
+                        <div>
+                          <span className="font-heading font-bold text-2xl text-dark-900">
+                            {t(`packages.${id}.price`)}
+                          </span>
+                          <span className="text-xs text-dark-400 ml-1">MXN</span>
+                        </div>
+                        <Link to={getLocalizedRoute('book', lang)}>
+                          <Button variant="primary" size="sm">
+                            {t('packages.bookButton')}
+                          </Button>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </FadeIn>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* ── WHY ALTAVUELA ── */}
+      <section className="section-padding bg-dark-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <FadeIn>
+            <h2 className="font-heading font-bold text-3xl sm:text-4xl text-center text-dark-900">
+              {t('why.title')}
+            </h2>
+          </FadeIn>
+          <div className="mt-12 space-y-12 sm:space-y-16">
+            {whyReasons.map((reason, i) => (
+              <FadeIn key={i} delay={0.1}>
+                <div
+                  className={`flex flex-col ${
+                    i % 2 === 1 ? 'md:flex-row-reverse' : 'md:flex-row'
+                  } gap-6 md:gap-10 items-center`}
+                >
+                  <div className="flex-1 w-full">
+                    <h3 className="font-heading font-bold text-xl sm:text-2xl text-dark-900">
+                      {reason.title}
+                    </h3>
+                    <p className="mt-3 text-dark-600 leading-relaxed">{reason.text}</p>
+                  </div>
+                  <div className="flex-1 w-full flex justify-center">
+                    <div className="w-full max-w-xs h-40 sm:h-48 rounded-2xl bg-primary-100 flex items-center justify-center">
+                      <span className="text-6xl sm:text-7xl font-heading font-bold text-primary-300">
+                        0{i + 1}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </FadeIn>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── NUMBERS ── */}
+      <section className="py-16 sm:py-20 bg-dark-900 text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 sm:gap-10">
+            <div ref={stat1.ref} className="text-center">
+              <p className="font-heading font-bold text-4xl sm:text-5xl text-primary-400">
+                {stat1.count}+
+              </p>
+              <p className="mt-2 text-dark-400 text-sm">{t('numbers.flights')}</p>
+            </div>
+            <div className="text-center">
+              <p className="font-heading font-bold text-4xl sm:text-5xl text-accent-400">4.9</p>
+              <p className="mt-2 text-dark-400 text-sm">{t('numbers.rating')}</p>
+            </div>
+            <div ref={stat2.ref} className="text-center">
+              <p className="font-heading font-bold text-4xl sm:text-5xl text-primary-400">
+                {stat2.count}+
+              </p>
+              <p className="mt-2 text-dark-400 text-sm">{t('numbers.years')}</p>
+            </div>
+            <div className="text-center">
+              <p className="font-heading font-bold text-4xl sm:text-5xl text-primary-400">3</p>
+              <p className="mt-2 text-dark-400 text-sm">{t('numbers.pilots')}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── REVIEWS CAROUSEL ── */}
+      <section className="section-padding bg-white overflow-hidden">
+        <div className="max-w-7xl mx-auto">
+          <FadeIn className="px-4 sm:px-6 lg:px-8">
+            <h2 className="font-heading font-bold text-3xl sm:text-4xl text-center text-dark-900">
+              {t('reviews.title')}
+            </h2>
+          </FadeIn>
+          {/*
+            -mx + px trick creates edge-to-edge scroll on mobile while keeping
+            cards visually inset with padding
+          */}
+          <div className="mt-10 flex gap-4 overflow-x-auto pb-4 px-4 sm:px-6 lg:px-8 snap-x snap-mandatory scroll-smooth">
+            {reviews.map(review => (
+              <div
+                key={review.id}
+                className="snap-center shrink-0 w-[85vw] sm:w-72 lg:w-80"
+              >
+                <Card hover={false} className="p-5 h-full">
+                  <StarRating rating={review.stars} />
+                  <p className="mt-3 text-dark-600 text-sm leading-relaxed italic">
+                    "{lang === 'en' ? review.textEn : review.textEs}"
+                  </p>
+                  <div className="mt-4 flex items-center gap-3">
+                    <div className="w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center text-primary-700 text-xs font-bold shrink-0">
+                      {review.name.charAt(0)}
+                    </div>
+                    <div className="min-w-0">
+                      <p className="text-sm font-medium text-dark-900 truncate">{review.name}</p>
+                      <p className="text-xs text-dark-400 truncate">
+                        {lang === 'en' ? review.cityEn : review.cityEs} · {review.date}
+                      </p>
+                    </div>
+                  </div>
+                </Card>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── BLOG PREVIEW ── */}
+      <section className="section-padding bg-dark-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <FadeIn>
+            <h2 className="font-heading font-bold text-3xl sm:text-4xl text-center text-dark-900">
+              {t('blog.title')}
+            </h2>
+          </FadeIn>
+          <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {filteredBlogPosts.map((post, i) => (
+              <FadeIn key={post.slug} delay={i * 0.12}>
+                <Card>
+                  <div className="relative aspect-[16/9] overflow-hidden bg-gradient-to-br from-primary-100 to-primary-200">
+                    <img
+                      src={post.image}
+                      alt={
+                        lang === 'es'
+                          ? `parapente valle de bravo ${post.title}`
+                          : `paragliding valle de bravo ${post.title}`
+                      }
+                      className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                      loading="lazy"
+                      width={800}
+                      height={450}
+                      onError={(e) => { (e.currentTarget as HTMLImageElement).style.opacity = '0'; }}
+                    />
+                  </div>
+                  <div className="p-4 sm:p-5">
+                    <Badge variant="primary" className="mb-3">
+                      {lang === 'es' ? post.categoryEs : post.categoryEn}
+                    </Badge>
+                    <h3 className="font-heading font-semibold text-base sm:text-lg text-dark-900 leading-snug">
+                      {post.title}
+                    </h3>
+                    <p className="mt-1.5 text-sm text-dark-500 line-clamp-2">{post.excerpt}</p>
+                    <Link
+                      to={`${getLocalizedRoute('blog', lang)}/${post.slug}`}
+                      className="mt-3 inline-flex text-sm font-medium text-primary-600 hover:text-primary-700 transition-colors"
+                    >
+                      {t('blog.readMore')} →
+                    </Link>
+                  </div>
+                </Card>
+              </FadeIn>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── CTA BANNER ── */}
+      <section className="relative py-20 sm:py-28 overflow-hidden bg-dark-900">
+        <div className="absolute inset-0 bg-gradient-to-br from-primary-900/30 to-dark-900" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <FadeIn>
+            <h2 className="font-heading font-bold text-3xl sm:text-4xl text-white">
+              {t('cta.title')}
+            </h2>
+            <p className="mt-4 text-dark-300 max-w-xl mx-auto">{t('cta.subtitle')}</p>
+            <div className="mt-8">
+              <Link to={getLocalizedRoute('book', lang)}>
+                <Button variant="amber" size="lg">
+                  {t('cta.button')}
+                </Button>
+              </Link>
+            </div>
+          </FadeIn>
+        </div>
+      </section>
+    </main>
+  );
 }

@@ -18,11 +18,11 @@ export default function Footer() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': ['LocalBusiness', 'TouristAttraction'],
-    name: 'VuelaValle',
+    name: 'ParaPenteValleDeBravo',
     description: lang === 'es'
       ? 'Especialistas en vuelo en parapente en Valle de Bravo. Pilotos certificados AVLM/APPI. Vuelos tándem, cursos y experiencias de vuelo libre.'
       : 'Paragliding specialists in Valle de Bravo. AVLM/APPI certified pilots. Tandem flights, courses, and free flight experiences.',
-    url: 'https://vuelavalle.mx',
+    url: 'https://parapentevalledebravo.mx',
     telephone: '+52-722-XXX-XXXX',
     address: {
       '@type': 'PostalAddress',
@@ -45,8 +45,8 @@ export default function Footer() {
       reviewCount: '312',
     },
     sameAs: [
-      'https://www.instagram.com/vuelavalle',
-      'https://www.facebook.com/vuelavalle',
+      'https://www.instagram.com/parapentevalledebravo',
+      'https://www.facebook.com/parapentevalledebravo',
     ],
   };
 
@@ -61,7 +61,7 @@ export default function Footer() {
           <div>
             <div className="mb-4">
               <div className="inline-flex bg-white rounded-xl px-3 py-1.5">
-                <img src="/img/logon.png" alt="VuelaValle" className="h-9 w-auto" />
+                <img src="/img/logon.png" alt="parapentevalledebravo" className="h-9 w-auto" />
               </div>
             </div>
             <p className="text-sm leading-relaxed text-dark-400">{t('footer.tagline')}</p>
@@ -92,7 +92,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-primary-400 shrink-0" />
-                <span className="text-sm">info@vuelavalle.mx</span>
+                <span className="text-sm">info@parapentevalledebravo.mx</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-primary-400 shrink-0" />

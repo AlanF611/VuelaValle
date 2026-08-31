@@ -61,7 +61,7 @@ export default function Footer() {
           <div>
             <div className="mb-4">
               <div className="inline-flex bg-white rounded-xl px-3 py-1.5">
-                <img src="/img/logo.jpeg" alt="VuelaValle" className="h-9 w-auto" />
+                <img src="/img/logon.png" alt="VuelaValle" className="h-9 w-auto" />
               </div>
             </div>
             <p className="text-sm leading-relaxed text-dark-400">{t('footer.tagline')}</p>

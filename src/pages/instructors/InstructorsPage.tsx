@@ -39,7 +39,7 @@ export default function InstructorsPage() {
 
       <section className="relative h-[50vh] min-h-[350px] flex items-center justify-center overflow-hidden">
         <img
-          src="/img/instructors-hero.jpg"
+          src="/img/heroequipo.png"
           alt={t('alt.instructor')}
           className="absolute inset-0 w-full h-full object-cover"
           loading="eager"

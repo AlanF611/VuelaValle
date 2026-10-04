@@ -20,7 +20,7 @@
   },
   "trust": {
     "certified": "Pilotos certificados",
-    "gopro": "Fotos y video GoPro",
+    "gopro": "Fotos y video",
     "transport": "Transporte al despegue",
     "booking": "Reserva online 24/7"
   },
@@ -37,13 +37,13 @@
     "sunset": {
       "name": "Vuelo desde el peñon",
       "duration": "Transporte al despegue de la Torre de Monte Alto",
-      "features": ["Vuelo Clásico de 35 min al atardecer", "Fotos y video GoPro HD"],
+      "features": ["Transporte al despegue de la Torre de Monte Alto", "Fotos y video"],
       "price": "$2,900 "
     },
     "xc": {
       "name": "Experiencia XC",
       "duration": "45-60 min vuelo cross-country",
-      "features": ["Vuelo cross-country 45-60 min", "Video INSTA360", "Transporte"],
+      "features": ["Vuelo cross-country 30-60 min", "Fotos y video", "Transporte"],
       "goodFor": "Para aventureros y pilotos con experiencia",
       "price": "$3,500"
     },

@@ -83,7 +83,7 @@ export default function FlightsPage() {
             {lang === 'es' ? 'Vuelos en Parapente en Valle de Bravo' : 'Paragliding Flights in Valle de Bravo'}
           </h1>
           <p className="mt-4 text-lg text-white/80 max-w-2xl mx-auto">
-            {lang === 'es' ? 'Elige tu experiencia de vuelo y vive el cielo de Valle de Bravo' : 'Choose your flight experience and live the skies of Valle de Bravo'}
+          
           </p>
         </div>
       </section>

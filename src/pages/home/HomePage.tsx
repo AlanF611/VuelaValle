@@ -195,11 +195,6 @@ export default function HomePage() {
               return (
                 <FadeIn key={id} delay={i * 0.12} className="h-full">
                   <div className="h-full flex flex-col rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 border border-dark-100 group">
-                    {id === 'sunset' && (
-                      <div className="absolute top-3 right-3 z-10 pointer-events-none">
-                        <Badge>{t('packages.sunset.badge')}</Badge>
-                      </div>
-                    )}
                     {/* Image with aspect ratio + gradient fallback */}
                     <div className="relative aspect-[16/9] overflow-hidden shrink-0">
                       <div className={`absolute inset-0 bg-gradient-to-br ${gradients[id]}`} />
@@ -214,11 +209,6 @@ export default function HomePage() {
                       />
                       {/* Dark scrim so text on image is always readable */}
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-                      {/* Duration badge on image */}
-                      <div className="absolute bottom-3 left-3 flex items-center gap-1.5 px-2.5 py-1 bg-white/15 backdrop-blur-sm rounded-full border border-white/20">
-                        <Clock className="w-3.5 h-3.5 text-white/90" />
-                        <span className="text-white text-xs font-medium">{t(`packages.${id}.duration`)}</span>
-                      </div>
                       {id === 'sunset' && (
                         <div className="absolute top-3 right-3">
                           <Badge>{t('packages.sunset.badge')}</Badge>

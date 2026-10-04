@@ -28,6 +28,7 @@
     "title": "Elige tu experiencia de vuelo",
     "classic": {
       "name": "Vuelo Cl\u00e1sico",
+       "badge": "M\u00e1s Popular",
       "duration": "20 min de vuelo Clásico (duración aproximada según el clima)",
       "features": ["20 min de vuelo Clásico (duración aproximada según el clima)", "Transporte al despegue La Torre", "Instructor certificado"],
       "goodFor": "Ideal para primeras veces y familias",
@@ -35,8 +36,7 @@
     },
     "sunset": {
       "name": "Vuelo desde el peñon",
-      "badge": "M\u00e1s Popular",
-      "duration": "35 min al atardecer",
+      "duration": "Transporte al despegue de la Torre de Monte Alto",
       "features": ["Vuelo Clásico de 35 min al atardecer", "Fotos y video GoPro HD"],
       "price": "$2,900 "
     },

@@ -36,14 +36,14 @@
     "sunset": {
       "name": "Peñon Flight",
       "badge": "Most Popular",
-      "features": ["35 min tandem flight at Peñon", "GoPro HD photos & video", "Flight certificate"],
+      "features": ["Transport to the Torre de Monte Alto launch site", "Photos & video"],
       "goodFor": "Great for couples and special occasions",
       "price": "2,900"
     },
     "xc": {
       "name": "XC Experience",
-      "duration": "45-60 min cross-country flight",
-      "features": ["45-60 min cross-country flight", "INSTA360 video", "Transport"],
+      "duration": "30-60 min cross-country flight",
+      "features": ["30-60 min cross-country flight", "Photos & video", "Transport"],
       "goodFor": "For adventurers and experienced pilots",
       "price": "$3,500"
     },

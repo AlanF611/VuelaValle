@@ -29,7 +29,7 @@
     "classic": {
       "name": "Vuelo Cl\u00e1sico",
        "badge": "M\u00e1s Popular",
-      "duration": "20 min de vuelo Clásico (duración aproximada según el clima)",
+     
       "features": ["20 min de vuelo Clásico (duración aproximada según el clima)", "Transporte al despegue La Torre", "Instructor certificado"],
       "goodFor": "Ideal para primeras veces y familias",
       "price": "$1,900"

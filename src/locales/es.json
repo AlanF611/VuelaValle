@@ -28,7 +28,7 @@
     "title": "Elige tu experiencia de vuelo",
     "classic": {
       "name": "Vuelo Cl\u00e1sico",
-      "duration": "20 min de vuelo Clásico",
+      "duration": "20 min de vuelo Clásico (± tiempo sujeto a condiciones climáticas)",
       "features": ["Vuelo Clásico de 20 min", "Transporte al despegue La Torre", "Instructor certificado"],
       "goodFor": "Ideal para primeras veces y familias",
       "price": "$1,900"

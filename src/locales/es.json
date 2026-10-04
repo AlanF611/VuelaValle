@@ -28,8 +28,8 @@
     "title": "Elige tu experiencia de vuelo",
     "classic": {
       "name": "Vuelo Cl\u00e1sico",
-      "duration": "20 min de vuelo Clásico (± tiempo sujeto a condiciones climáticas)",
-      "features": ["Vuelo Clásico de 20 min", "Transporte al despegue La Torre", "Instructor certificado"],
+      "duration": "20 min de vuelo Clásico (duración aproximada según el clima)",
+      "features": ["20 min de vuelo Clásico (duración aproximada según el clima)", "Transporte al despegue La Torre", "Instructor certificado"],
       "goodFor": "Ideal para primeras veces y familias",
       "price": "$1,900"
     },
@@ -45,7 +45,7 @@
       "duration": "45-60 min vuelo cross-country",
       "features": ["Vuelo cross-country 45-60 min", "Video INSTA360", "Transporte"],
       "goodFor": "Para aventureros y pilotos con experiencia",
-      "price": "$2,800"
+      "price": "$3,500"
     },
     "bookButton": "Reservar este vuelo"
   },

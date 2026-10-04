@@ -28,8 +28,8 @@
     "title": "Choose your flight experience",
     "classic": {
       "name": "Classic Flight",
-      "duration": "20 min tandem flight",
-      "features": ["20 min tandem flight", "Transport to La Torre launch", "Certified instructor"],
+      "duration": "20-min Classic Flight (approx. duration based on weather)",
+      "features": ["20-min Classic Flight (approx. duration based on weather)", "Transport to La Torre launch", "Certified instructor"],
       "goodFor": "Perfect for first-timers and families",
       "price": "$1,900"
     },
@@ -45,7 +45,7 @@
       "duration": "45-60 min cross-country flight",
       "features": ["45-60 min cross-country flight", "INSTA360 video", "Transport"],
       "goodFor": "For adventurers and experienced pilots",
-      "price": "$2,800"
+      "price": "$3,500"
     },
     "bookButton": "Book this flight"
   },

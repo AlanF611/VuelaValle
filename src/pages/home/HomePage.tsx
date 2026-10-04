@@ -209,8 +209,9 @@ export default function HomePage() {
                       />
                       {/* Dark scrim so text on image is always readable */}
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                      {/* "Most Popular" badge — only on sunset */}
                       {id === 'sunset' && (
-                        <div className="absolute top-3 right-3">
+                        <div className="absolute top-3 right-3 z-10">
                           <Badge>{t('packages.sunset.badge')}</Badge>
                         </div>
                       )}

@@ -56,12 +56,12 @@ export const blogPosts: BlogPost[] = [
         content: 'Una de las grandes ventajas de Valle de Bravo es que ofrece condiciones de vuelo durante todo el a\u00f1o. Sin embargo, la experiencia var\u00eda significativamente seg\u00fan la temporada, y conocer estas diferencias te ayudar\u00e1 a elegir el momento perfecto para tu vuelo.',
       },
       {
-        heading: 'Temporada alta: octubre a mayo',
+        heading: 'Temporada alta: Noviembre a Mayo',
         content: 'De octubre a mayo, las condiciones t\u00e9rmicas en Valle de Bravo son excepcionales. Los d\u00edas son soleados, las t\u00e9rmicas son consistentes y predecibles, y las condiciones de vuelo son ideales tanto para vuelos t\u00e1ndem como para cross-country.\n\nDentro de esta temporada, destacan dos momentos especiales:\n\nNoviembre a enero: Esta es la temporada en la que Valle de Bravo recibe a pilotos de todo el mundo. Las condiciones t\u00e9rmicas permiten vuelos largos, y el ambiente en el despegue es incre\u00edble. Es cuando se realizan las competencias nacionales e internacionales.\n\nFebrero a abril: La primavera ofrece las t\u00e9rmicas m\u00e1s fuertes del a\u00f1o, lo que permite vuelos de mayor duraci\u00f3n y distancia. Los atardeceres son especialmente hermosos durante estos meses.',
       },
       {
-        heading: 'Temporada de lluvias: junio a septiembre',
-        content: 'Durante la temporada de lluvias, volamos con menos frecuencia pero sigue siendo posible. Las ma\u00f1anas suelen tener condiciones flyables antes de que se formen las nubes de lluvia por la tarde. Los vuelos matutinos durante esta temporada ofrecen una atm\u00f3sfera especial con nubes dram\u00e1ticas y vegetaci\u00f3n exuberante.\n\nEs importante tener flexibilidad en las fechas durante esta temporada, ya que podemos necesitar reprogramar si las condiciones no son seguras.',
+        heading: 'Temporada de lluvias: Junio a Octubre',
+        content: 'Durante la temporada de lluvias, volamos con menos frecuencia pero sigue siendo posible. Las ma\u00f1anas suelen tener condiciones volables antes de que se formen las nubes de lluvia por la tarde. Los vuelos matutinos durante esta temporada ofrecen una atm\u00f3sfera especial con nubes dram\u00e1ticas y vegetaci\u00f3n exuberante.\n\nEs importante tener flexibilidad en las fechas durante esta temporada, ya que podemos necesitar reprogramar si las condiciones no son seguras.',
       },
     ],
   },

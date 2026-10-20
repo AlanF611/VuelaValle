@@ -137,10 +137,10 @@
       "flightTypeRequired": "Selecciona un tipo de vuelo"
     },
     "timeSlots": {
-      "7am": "7:00 am",
-      "9am": "9:00 am",
       "11am": "11:00 am",
-      "2pm": "2:00 pm"
+      "12am": "12:30 pm",
+      "2pm": "2:00 pm",
+      "3pm": "3:30 pm"
     },
     "hearOptions": {
       "google": "Google",

@@ -31,7 +31,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: 'Qu\u00e9 hace que un vuelo sea seguro',
-        content: 'La seguridad en parapente depende de tres factores principales: el piloto, el equipo y las condiciones meteorol\u00f3gicas.\n\nEl piloto: Nuestros instructores tienen m\u00e1s de 1,000 vuelos de experiencia cada uno. Carlos Mendoza, nuestro piloto principal, ha completado m\u00e1s de 2,400 vuelos sin incidentes. La experiencia es el factor de seguridad m\u00e1s importante.\n\nEl equipo: Revisamos cada pieza del equipo antes de cada vuelo. Las alas se inspeccionan cada 100 horas de vuelo, las cuerdas se cambian seg\u00fan el calendario del fabricante, y los arneses tienen reserva de emergencia (paraca\u00eddas de emergencia) que se repacking cada 6 meses.\n\nLas condiciones: Solo volamos cuando las condiciones meteorol\u00f3gicas son favorables. Si el viento est\u00e1 fuera de rango, si hay riesgo de tormenta o si las t\u00e9rmicas son demasiado fuertes, cancelamos el vuelo. Sin excepciones.',
+        content: 'La seguridad en parapente depende de tres factores principales: el piloto, el equipo y las condiciones meteorol\u00f3gicas.\n\nEl piloto: Nuestros instructores tienen m\u00e1s de 1,000 vuelos de experiencia cada uno. Percy Grave, nuestro piloto principal, ha completado m\u00e1s de 2,400 vuelos sin incidentes. La experiencia es el factor de seguridad m\u00e1s importante.\n\nEl equipo: Revisamos cada pieza del equipo antes de cada vuelo. Las alas se inspeccionan cada 100 horas de vuelo, las l\u00edneas se cambian seg\u00fan el calendario del fabricante, y los arneses tienen reserva de emergencia (paraca\u00eddas de emergencia) que se reempacan cada 6 meses.\n\nLas condiciones: Solo volamos cuando las condiciones meteorol\u00f3gicas son favorables. Si el viento est\u00e1 fuera de rango, si hay riesgo de tormenta o si las t\u00e9rmicas son demasiado fuertes, cancelamos el vuelo. Sin excepciones.',
       },
       {
         heading: 'Preguntas frecuentes sobre seguridad',
@@ -98,7 +98,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'Safety is the number one concern for anyone considering a paragliding flight. Here we answer all your questions with real data.',
     categoryEs: 'Seguridad',
     categoryEn: 'Safety',
-    authorId: 'carlos',
+    authorId: '',
     readTime: 6,
     date: '2025-01-20',
     image: '/img/safety.jpeg',
@@ -109,7 +109,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: 'What makes a flight safe',
-        content: 'Safety in paragliding depends on three main factors: the pilot, the equipment, and weather conditions.\n\nThe pilot: Our instructors each have over 1,000 flights of experience. Carlos Mendoza, our lead pilot, has completed over 2,400 incident-free flights. Experience is the most important safety factor.\n\nThe equipment: We inspect every piece of equipment before each flight. Wings are inspected every 100 flight hours, lines are replaced according to the manufacturer schedule, and harnesses have emergency reserves (reserve parachutes) that are repacked every 6 months.\n\nThe conditions: We only fly when weather conditions are favorable. If the wind is out of range, if there\'s a risk of storms, or if thermals are too strong, we cancel the flight. No exceptions.',
+        content: 'Safety in paragliding depends on three main factors: the pilot, the equipment, and weather conditions.\n\nThe pilot: Our instructors each have over 1,000 flights of experience. Percy Grave, our lead pilot, has completed over 2,400 incident-free flights. Experience is the most important safety factor.\n\nThe equipment: We inspect every piece of equipment before each flight. Wings are inspected every 100 flight hours, lines are replaced according to the manufacturer schedule, and harnesses have emergency reserves (reserve parachutes) that are repacked every 6 months.\n\nThe conditions: We only fly when weather conditions are favorable. If the wind is out of range, if there\'s a risk of storms, or if thermals are too strong, we cancel the flight. No exceptions.',
       },
       {
         heading: 'Frequently asked safety questions',

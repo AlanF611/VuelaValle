@@ -36,7 +36,7 @@ export default function BookingPage() {
     flightType: z.enum(['classic', 'sunset', 'xc'], {
       required_error: t('booking.validation.flightTypeRequired'),
     }),
-    people: z.number().min(1).max(6), // ✅ Corregido: máximo 6 personas
+    people: z.number().min(1).max(6),
     date: z.string().min(1, t('booking.validation.dateRequired')),
     timeSlot: z.string(),
     name: z.string().min(1, t('booking.validation.nameRequired')),
@@ -69,7 +69,7 @@ export default function BookingPage() {
       flightType: 'classic',
       people: 1,
       date: '',
-      timeSlot: '11am', // ✅ Corregido: cambiado de '9am' a '11am'
+      timeSlot: '11am',
       name: '',
       email: '',
       whatsapp: '',
@@ -104,7 +104,6 @@ export default function BookingPage() {
   ]);
 
   const onSubmit = (data: FormData) => {
-    // Construir el mensaje para WhatsApp
     const hearOptions = t('booking.hearOptions', { returnObjects: true }) as Record<string, string>;
     const hearAboutText = data.hearAbout ? hearOptions[data.hearAbout] || data.hearAbout : 'No especificado';
     
@@ -136,16 +135,11 @@ export default function BookingPage() {
       `💳 *${t('booking.deposit')}*`,
     ].filter(Boolean).join('\n');
 
-    // Número de WhatsApp (sin el +, solo dígitos)
     const phoneNumber = '525554070103';
-    
-    // Crear URL de WhatsApp
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     
-    // Lanzar confetti
     confetti({ particleCount: 150, spread: 70, origin: { y: 0.6 } });
     
-    // Abrir WhatsApp en nueva pestaña después de un pequeño delay para que se vea el confetti
     setTimeout(() => {
       window.open(whatsappUrl, '_blank');
     }, 500);
@@ -166,7 +160,8 @@ export default function BookingPage() {
     { id: 'xc', label: t('packages.xc.name'), price: t('packages.xc.price') },
   ];
 
-  const timeSlots = ['11am', '12:30pm', '2pm', '3:30pm'] as const;
+  // ✅ Corregido: se quitaron los dos puntos de las llaves
+  const timeSlots = ['11am', '1230pm', '2pm', '330pm'] as const;
   const today = new Date().toISOString().split('T')[0];
 
   const seoCopy =
@@ -297,7 +292,6 @@ export default function BookingPage() {
                             <Users className="w-4 h-4" />
                             {t('booking.people')}
                           </label>
-                          {/* ✅ Corregido: se agregaron 5 y 6, y flex-wrap para móviles */}
                           <div className="flex flex-wrap gap-2 sm:gap-3">
                             {[1, 2, 3, 4, 5, 6].map(n => (
                               <button

@@ -11,10 +11,10 @@
   },
   "hero": {
     "title": "VUELA SOBRE EL LAGO DE VALLE DE BRAVO",
-    "subtitle": "Pilotos certificados \u00b7 Vuelos Clásico",
+    "subtitle": "Pilotos certificados \u00b7 Vuelo Clásico",
     "cta1": "Reservar vuelo \u2192",
     "cta2": "Ver experiencias",
-    "stats1": "500+ vuelos al a\u00f1o",
+    "stats1": "500+ Vuelo al a\u00f1o",
     "stats2": "4.9\u2605 calificaci\u00f3n",
     "stats3": "10+ a\u00f1os de experiencia"
   },
@@ -57,7 +57,7 @@
     "step4": "\u00a1Vuela y ll\u00e9vate tus fotos!"
   },
   "gallery": {
-    "title": "Galer\u00eda de vuelos",
+    "title": "Galer\u00eda de Vuelo",
     "all": "Todos",
     "tandem": "Clásico",
     "sunset": "Sunset",
@@ -78,9 +78,9 @@
     "q1": "\u00bfEs seguro volar en parapente?",
     "a1": "S\u00ed, volar en parapente Clásico es una actividad muy segura. Todos nuestros pilotos est\u00e1n certificados por la AVLM y APPI, y contamos con seguro de vuelo para cada pasajero. Revisamos el equipo antes de cada vuelo y solo volamos cuando las condiciones meteorol\u00f3gicas son ideales.",
     "q2": "\u00bfNecesito experiencia previa?",
-    "a2": "No, para los vuelos Clásico no necesitas ninguna experiencia. Tu piloto se encarga de todo: despegue, vuelo y aterrizaje. Solo necesitas seguir instrucciones simples y disfrutar la vista.",
+    "a2": "No, para los Vuelo Clásico no necesitas ninguna experiencia. Tu piloto se encarga de todo: despegue, vuelo y aterrizaje. Solo necesitas seguir instrucciones simples y disfrutar la vista.",
     "q3": "\u00bfQu\u00e9 incluye el precio?",
-    "a3": "Todos nuestros vuelos incluyen transporte al despegue, seguro de vuelo, equipo completo y un instructor certificado. El Vuelo desde el peñon incluye adem\u00e1s fotos y video GoPro, y el XC incluye video INSTA360 y transporte privado.",
+    "a3": "Todos nuestros Vuelo incluyen transporte al despegue, seguro de vuelo, equipo completo y un instructor certificado. El Vuelo desde el peñon incluye adem\u00e1s fotos y video GoPro, y el XC incluye video INSTA360 y transporte privado.",
     "q4": "\u00bfCu\u00e1nto dura el vuelo?",
     "a4": "El Vuelo Cl\u00e1sico dura 20 minutos, el Vuelo desde el peñon 35 minutos, y la Experiencia XC entre 45 y 60 minutos. Los tiempos pueden variar seg\u00fan condiciones de vuelo.",
     "q5": "\u00bfQu\u00e9 debo llevar?",
@@ -156,9 +156,9 @@
       "name": "Iniciaci\u00f3n",
       "duration": "5 d\u00edas",
       "price": "$8,500",
-      "description": "Tu primer paso como piloto. Aprende las bases del vuelo en parapente, desde el control en suelo hasta tus primeros vuelos supervisados.",
+      "description": "Tu primer paso como piloto. Aprende las bases del vuelo en parapente, desde el control en suelo hasta tus primeros Vuelo supervisados.",
       "includes": ["Material did\u00e1ctico", "Equipo completo durante el curso", "Vuelos supervisados en ladera", "Seguro de vuelo", "Certificado AVLM de iniciaci\u00f3n", "M\u00e1ximo 4 alumnos por grupo"],
-      "schedule": ["D\u00eda 1: Teor\u00eda y control en suelo", "D\u00eda 2: Primeros despegues en ladera", "D\u00eda 3: Vuelos cortos supervisados", "D\u00eda 4: Pr\u00e1ctica de aterrizaje y control", "D\u00eda 5: Vuelos progresivos"]
+      "schedule": ["D\u00eda 1: Teor\u00eda y control en suelo", "D\u00eda 2: Primeros despegues en ladera", "D\u00eda 3: Vuelo cortos supervisados", "D\u00eda 4: Pr\u00e1ctica de aterrizaje y control", "D\u00eda 5: Vuelo progresivos"]
     },
     "pilot": {
       "name": "Piloto",
@@ -166,7 +166,7 @@
       "price": "$15,000",
       "description": "Formaci\u00f3n completa para obtener tu licencia de piloto. Incluye t\u00e9cnicas de vuelo t\u00e9rmico, navegaci\u00f3n y procedimientos de emergencia.",
       "includes": ["Todo lo del curso Iniciaci\u00f3n", "Vuelos t\u00e9rmicos", "Navegaci\u00f3n y planificaci\u00f3n", "Procedimientos de emergencia", "Licencia AVLM Piloto", "Manual del piloto"],
-      "schedule": ["D\u00edas 1-5: Programa Iniciaci\u00f3n", "D\u00eda 6: Vuelo t\u00e9rmico te\u00f3rico", "D\u00eda 7: Primeros vuelos t\u00e9rmicos", "D\u00eda 8: Navegaci\u00f3n y XC", "D\u00eda 9: Simulaci\u00f3n de emergencias", "D\u00eda 10: Examen y vuelo final"]
+      "schedule": ["D\u00edas 1-5: Programa Iniciaci\u00f3n", "D\u00eda 6: Vuelo t\u00e9rmico te\u00f3rico", "D\u00eda 7: Primeros Vuelo t\u00e9rmicos", "D\u00eda 8: Navegaci\u00f3n y XC", "D\u00eda 9: Simulaci\u00f3n de emergencias", "D\u00eda 10: Examen y vuelo final"]
     },
     "advanced": {
       "name": "Perfeccionamiento XC",
@@ -191,7 +191,7 @@
     "emailLabel": "Correo",
     "whatsappLabel": "WhatsApp",
     "subjectOptions": {
-      "flight": "Consulta sobre vuelos",
+      "flight": "Consulta sobre Vuelo",
       "group": "Grupos y eventos",
       "other": "Otro"
     },
@@ -216,8 +216,8 @@
     "title": "\u00bfPor qu\u00e9 parapente valle de bravo?",
     "reason1Title": "Especializaci\u00f3n total",
     "reason1Text": "Solo volamos. No hacemos tours gen\u00e9ricos ni actividades tur\u00edsticas. Cada d\u00eda perfeccionamos nuestro arte, y eso se nota en cada vuelo.",
-    "reason2Title": "Pilotos con +1,000 vuelos",
-    "reason2Text": "Cada uno de nuestros instructores ha completado m\u00e1s de 1,000 vuelos. La experiencia no se improvisa, y tu seguridad depende de ella.",
+    "reason2Title": "Pilotos con +1,000 Vuelo",
+    "reason2Text": "Cada uno de nuestros instructores ha completado m\u00e1s de 1,000 Vuelo. La experiencia no se improvisa, y tu seguridad depende de ella.",
     "reason3Title": "Destino de clase mundial",
     "reason3Text": "Valle de Bravo ha sido sede de la Copa del Mundo de Parapente en 5 ocasiones. Las condiciones t\u00e9rmicas y el paisaje lo convierten en uno de los mejores sitios del planeta para volar."
   },

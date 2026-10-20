@@ -166,7 +166,7 @@ export default function BookingPage() {
     { id: 'xc', label: t('packages.xc.name'), price: t('packages.xc.price') },
   ];
 
-  const timeSlots = ['7am', '9am', '11am', '2pm'] as const;
+  const timeSlots = ['11am', '12:30pm', '2pm', '3:30pm'] as const;
   const today = new Date().toISOString().split('T')[0];
 
   const seoCopy =

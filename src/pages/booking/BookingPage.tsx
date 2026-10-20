@@ -36,7 +36,7 @@ export default function BookingPage() {
     flightType: z.enum(['classic', 'sunset', 'xc'], {
       required_error: t('booking.validation.flightTypeRequired'),
     }),
-    people: z.number().min(1).max(6),
+    people: z.number().min(1).max(6), // ✅ Corregido: máximo 6 personas
     date: z.string().min(1, t('booking.validation.dateRequired')),
     timeSlot: z.string(),
     name: z.string().min(1, t('booking.validation.nameRequired')),
@@ -69,7 +69,7 @@ export default function BookingPage() {
       flightType: 'classic',
       people: 1,
       date: '',
-      timeSlot: '9am',
+      timeSlot: '11am', // ✅ Corregido: cambiado de '9am' a '11am'
       name: '',
       email: '',
       whatsapp: '',
@@ -297,8 +297,9 @@ export default function BookingPage() {
                             <Users className="w-4 h-4" />
                             {t('booking.people')}
                           </label>
-                          <div className="flex gap-3">
-                            {[1, 2, 3, 4].map(n => (
+                          {/* ✅ Corregido: se agregaron 5 y 6, y flex-wrap para móviles */}
+                          <div className="flex flex-wrap gap-2 sm:gap-3">
+                            {[1, 2, 3, 4, 5, 6].map(n => (
                               <button
                                 key={n}
                                 type="button"

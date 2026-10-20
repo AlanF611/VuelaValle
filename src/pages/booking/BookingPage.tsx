@@ -36,7 +36,7 @@ export default function BookingPage() {
     flightType: z.enum(['classic', 'sunset', 'xc'], {
       required_error: t('booking.validation.flightTypeRequired'),
     }),
-    people: z.number().min(1).max(4),
+    people: z.number().min(1).max(6),
     date: z.string().min(1, t('booking.validation.dateRequired')),
     timeSlot: z.string(),
     name: z.string().min(1, t('booking.validation.nameRequired')),

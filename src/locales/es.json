@@ -35,7 +35,7 @@
       "price": "$1,900"
     },
     "sunset": {
-      "name": "Vuelo desde el peñon",
+      "name": "Vuelo desde el Peñón ",
       "duration": "Transporte al despegue del despegue del Peñón",
       "features": ["Transporte al despegue del despegue del Peñón", "Fotos y video"],
       "price": "$2,900 "
@@ -80,9 +80,9 @@
     "q2": "\u00bfNecesito experiencia previa?",
     "a2": "No, para los Vuelo Clásico no necesitas ninguna experiencia. Tu piloto se encarga de todo: despegue, vuelo y aterrizaje. Solo necesitas seguir instrucciones simples y disfrutar la vista.",
     "q3": "\u00bfQu\u00e9 incluye el precio?",
-    "a3": "Todos nuestros Vuelo incluyen transporte al despegue, seguro de vuelo, equipo completo y un instructor certificado. El Vuelo desde el peñon incluye adem\u00e1s fotos y video GoPro, y el XC incluye video INSTA360 y transporte privado.",
+    "a3": "Todos nuestros Vuelo incluyen transporte al despegue, seguro de vuelo, equipo completo y un instructor certificado. El Vuelo desde el Peñón  incluye adem\u00e1s fotos y video GoPro, y el XC incluye video INSTA360 y transporte privado.",
     "q4": "\u00bfCu\u00e1nto dura el vuelo?",
-    "a4": "El Vuelo Cl\u00e1sico dura 20 minutos, el Vuelo desde el peñon 35 minutos, y la Experiencia XC entre 45 y 60 minutos. Los tiempos pueden variar seg\u00fan condiciones de vuelo.",
+    "a4": "El Vuelo Cl\u00e1sico dura 20 minutos, el Vuelo desde el Peñón  35 minutos, y la Experiencia XC entre 45 y 60 minutos. Los tiempos pueden variar dependiendo de las condiciones climatológicas.",
     "q5": "\u00bfQu\u00e9 debo llevar?",
     "a5": "Ropa c\u00f3moda, zapatos cerrados, protector solar y una actitud aventurera. Te proporcionamos todo el equipo t\u00e9cnico necesario. En invierno te sugerimos traer una chaqueta ligera.",
     "q6": "\u00bfPuedo cancelar mi reserva?",
@@ -249,7 +249,7 @@
   "alt": {
     "hero": "Parapente sobre Valle de Bravo al atardecer",
     "classic": "Vuelo cl\u00e1sico en parapente sobre Valle de Bravo",
-    "sunset": "Vuelo desde el peñon en parapente sobre Valle de Bravo",
+    "sunset": "Vuelo desde el Peñón  en parapente sobre Valle de Bravo",
     "xc": "Vuelo cross-country en parapente Valle de Bravo",
     "gallery1": "Parapente volando sobre el lago de Valle de Bravo",
     "gallery2": "Parapente Clásico en Valle de Bravo atardecer",  

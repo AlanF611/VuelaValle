@@ -138,9 +138,9 @@
     },
     "timeSlots": {
       "11am": "11:00 am",
-      "12am": "12:30 pm",
+      "12:30am": "12:30 pm",
       "2pm": "2:00 pm",
-      "3pm": "3:30 pm"
+      "3:30pm": "3:30 pm"
     },
     "hearOptions": {
       "google": "Google",

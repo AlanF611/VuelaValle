@@ -136,12 +136,12 @@
       "dateRequired": "La fecha es obligatoria",
       "flightTypeRequired": "Selecciona un tipo de vuelo"
     },
-    "timeSlots": {
-  "11am": "11:00 am",
-  "12:30pm": "12:30 pm",
-  "2pm": "2:00 pm",
-  "3:30pm": "3:30 pm"
-   },    
+     "timeSlots": {
+      "11am": "11:00 am",
+      "1230pm": "12:30 pm",
+      "2pm": "2:00 pm",
+      "330pm": "3:30 pm"
+    },   
     "hearOptions": {
       "google": "Google",
       "instagram": "Instagram",

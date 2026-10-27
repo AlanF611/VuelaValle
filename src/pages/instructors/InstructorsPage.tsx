@@ -1,10 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import { motion, useReducedMotion, useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { Wind, Award } from 'lucide-react';
 import SEOHead from '../../components/seo/SEOHead';
 import Card from '../../components/ui/Card';
-import Badge from '../../components/ui/Badge';
 import { instructors } from '../../data/instructors';
 
 function FadeIn({ children, className = '', delay = 0 }: { children: React.ReactNode; className?: string; delay?: number }) {
@@ -32,7 +30,7 @@ export default function InstructorsPage() {
     <main className="pt-16 lg:pt-20">
       <SEOHead
         title={lang === 'es' ? 'Nuestros Instructores de Parapente | Pilotos Certificados | VuelaValle' : 'Our Paragliding Instructors | Certified Pilots | VuelaValle'}
-        description={lang === 'es' ? 'Conoce a los pilotos certificados de VuelaValle. Instructores con cientos de vuelos en Valle de Bravo. AVLM y APPI certificados.' : 'Meet the certified pilots of VuelaValle. Instructors with hundreds of flights in Valle de Bravo. AVLM and APPI certified.'}
+        description={lang === 'es' ? 'Conoce a los pilotos certificados de VuelaValle. Instructores con cientos de vuelos en Valle de Bravo.' : 'Meet the certified pilots of VuelaValle. Instructors with hundreds of flights in Valle de Bravo.'}
         pathEs="/instructores"
         pathEn="/en/instructors"
       />
@@ -63,15 +61,6 @@ export default function InstructorsPage() {
                     <div>
                       <h2 className="font-heading font-bold text-xl text-dark-900">{instructor.name}</h2>
                       <p className="text-sm text-dark-500">{instructor.years} {t('instructors.years')} · {instructor.totalFlights.toLocaleString()}+ {t('instructors.flights')}</p>
-                    </div>
-                  </div>
-
-                  <div className="mb-4">
-                    <h3 className="text-xs font-semibold text-dark-400 uppercase tracking-wide mb-2">{t('instructors.certifications')}</h3>
-                    <div className="flex flex-wrap gap-2">
-                      {instructor.certifications.map(cert => (
-                        <Badge key={cert} variant="primary">{cert}</Badge>
-                      ))}
                     </div>
                   </div>
 

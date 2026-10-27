@@ -59,7 +59,7 @@ export default function TermsPage() {
         {
           icon: CheckCircle,
           title: '1. Aceptación de los Términos',
-          content: <p>Al reservar, contratar o participar en cualquier vuelo en parapente ofrecido por <span className="font-semibold text-dark-800">VuelaValle</span> (en adelante "la Empresa"), el usuario (en adelante "el Cliente") declara haber leído, entendido y aceptado íntegramente los presentes Términos y Condiciones, así como nuestro Aviso de Privacidad.</p>,
+          content: <p>Al reservar, contratar o participar en cualquier vuelo en parapente ofrecido por <span className="font-semibold text-dark-800">parapente valle de bravo</span> (en adelante "la Empresa"), el usuario (en adelante "el Cliente") declara haber leído, entendido y aceptado íntegramente los presentes Términos y Condiciones, así como nuestro Aviso de Privacidad.</p>,
         },
         {
           icon: Plane,
@@ -234,7 +234,7 @@ export default function TermsPage() {
             <div className="bg-dark-50 rounded-xl p-5 space-y-3">
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-primary-500 shrink-0" />
-                <span className="text-sm"><span className="font-medium text-dark-800">Correo:</span> <a href="mailto:info@vuelavalle.mx" className="text-primary-600 hover:text-primary-700 underline underline-offset-2">info@vuelavalle.mx</a></span>
+                <span className="text-sm"><span className="font-medium text-dark-800">Correo:</span> <a href="mailto:info@parapente valle de bravo.mx" className="text-primary-600 hover:text-primary-700 underline underline-offset-2">info@parapente valle de bravo.mx</a></span>
               </div>
               <div className="flex items-center gap-3">
                 <Plane className="w-4 h-4 text-primary-500 shrink-0" />
@@ -256,7 +256,7 @@ export default function TermsPage() {
         {
           icon: CheckCircle,
           title: '1. Acceptance of Terms',
-          content: <p>By booking, contracting, or participating in any paragliding flight offered by <span className="font-semibold text-dark-800">VuelaValle</span> (hereinafter "the Company"), the user (hereinafter "the Customer") declares having read, understood, and fully accepted these Terms and Conditions, as well as our Privacy Policy.</p>,
+          content: <p>By booking, contracting, or participating in any paragliding flight offered by <span className="font-semibold text-dark-800">parapente valle de bravo</span> (hereinafter "the Company"), the user (hereinafter "the Customer") declares having read, understood, and fully accepted these Terms and Conditions, as well as our Privacy Policy.</p>,
         },
         {
           icon: Plane,
@@ -429,7 +429,7 @@ export default function TermsPage() {
             <div className="bg-dark-50 rounded-xl p-5 space-y-3">
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-primary-500 shrink-0" />
-                <span className="text-sm"><span className="font-medium text-dark-800">Email:</span> <a href="mailto:info@vuelavalle.mx" className="text-primary-600 hover:text-primary-700 underline underline-offset-2">info@vuelavalle.mx</a></span>
+                <span className="text-sm"><span className="font-medium text-dark-800">Email:</span> <a href="mailto:info@parapente valle de bravo.mx" className="text-primary-600 hover:text-primary-700 underline underline-offset-2">info@parapente valle de bravo.mx</a></span>
               </div>
               <div className="flex items-center gap-3">
                 <Plane className="w-4 h-4 text-primary-500 shrink-0" />
@@ -451,8 +451,8 @@ export default function TermsPage() {
   return (
     <main className="pt-16 lg:pt-20">
       <SEOHead
-        title={lang === 'es' ? 'Términos y Condiciones | VuelaValle' : 'Terms and Conditions | VuelaValle'}
-        description={lang === 'es' ? 'Términos y condiciones del servicio de vuelos en parapente de VuelaValle en Valle de Bravo.' : 'Terms and conditions for VuelaValle paragliding flight services in Valle de Bravo.'}
+        title={lang === 'es' ? 'Términos y Condiciones | parapente valle de bravo' : 'Terms and Conditions | parapente valle de bravo'}
+        description={lang === 'es' ? 'Términos y condiciones del servicio de vuelos en parapente de parapente valle de bravo en Valle de Bravo.' : 'Terms and conditions for parapente valle de bravo paragliding flight services in Valle de Bravo.'}
         pathEs="/terminos-y-condiciones"
         pathEn="/en/terms-and-conditions"
       />

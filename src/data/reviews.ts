@@ -13,8 +13,8 @@ export const reviews: Review[] = [
   {
     id: 1,
     stars: 5,
-    textEs: 'Una experiencia incre\u00edble. Carlos fue un piloto excepcional, me sent\u00ed seguro en todo momento. Las vistas del lago son impresionantes.',
-    textEn: 'An incredible experience. Carlos was an exceptional pilot, I felt safe the entire time. The lake views are stunning.',
+    textEs: 'Una experiencia incre\u00edble. Lazaro fue un piloto excepcional, me sent\u00ed seguro en todo momento. Las vistas del lago son impresionantes.',
+    textEn: 'An incredible experience. Lazaro was an exceptional pilot, I felt safe the entire time. The lake views are stunning.',
     name: 'Mar\u00eda G.',
     cityEs: 'Ciudad de M\u00e9xico',
     cityEn: 'Mexico City',
@@ -33,8 +33,8 @@ export const reviews: Review[] = [
   {
     id: 3,
     stars: 5,
-    textEs: 'Vol\u00e9 con Daniela y fue la mejor experiencia de mi vida. Super profesional y muy paciente. Ya quiero volver.',
-    textEn: 'I flew with Daniela and it was the best experience of my life. Super professional and very patient. I want to come back already.',
+    textEs: 'Vol\u00e9 con Percy y fue la mejor experiencia de mi vida. Super profesional y muy paciente. Ya quiero volver.',
+    textEn: 'I flew with Percy and it was the best experience of my life. Super professional and very patient. I want to come back already.',
     name: 'Ana P.',
     cityEs: 'Guadalajara',
     cityEn: 'Guadalajara',

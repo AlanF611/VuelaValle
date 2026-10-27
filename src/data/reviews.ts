@@ -23,8 +23,8 @@ export const reviews: Review[] = [
   {
     id: 2,
     stars: 5,
-    textEs: 'El vuelo sunset fue m\u00e1gico. Las fotos con GoPro quedaron espectaculares. 100% recomendado para parejas.',
-    textEn: 'The sunset flight was magical. The GoPro photos came out spectacular. 100% recommended for couples.',
+    textEs: 'El vuelo XC fue m\u00e1gico. Las fotos con GoPro quedaron espectaculares. 100% recomendado para parejas.',
+    textEn: 'The XC flight was magical. The GoPro photos came out spectacular. 100% recommended for couples.',
     name: 'Roberto L.',
     cityEs: 'Monterrey',
     cityEn: 'Monterrey',

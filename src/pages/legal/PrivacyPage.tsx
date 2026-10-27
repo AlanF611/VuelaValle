@@ -57,7 +57,7 @@ export default function PrivacyPage() {
           icon: Shield,
           title: '1. Identidad y Domicilio del Responsable',
           content: (
-            <p>VuelaValle, con domicilio en Valle de Bravo, Estado de México, 51200, México, es responsable del tratamiento de sus datos personales conforme a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP).</p>
+            <p>parapente valle de bravo, con domicilio en Valle de Bravo, Estado de México, 51200, México, es responsable del tratamiento de sus datos personales conforme a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP).</p>
           ),
         },
         {
@@ -120,7 +120,7 @@ export default function PrivacyPage() {
                   </ul>
                 </div>
               </div>
-              <p className="mt-4">Si no desea que sus datos se usen para finalidades secundarias, puede manifestarlo enviando un correo a <a href="mailto:info@vuelavalle.mx" className="text-primary-600 hover:text-primary-700 underline underline-offset-2">info@vuelavalle.mx</a>.</p>
+              <p className="mt-4">Si no desea que sus datos se usen para finalidades secundarias, puede manifestarlo enviando un correo a <a href="mailto:info@parapente valle de bravo.mx" className="text-primary-600 hover:text-primary-700 underline underline-offset-2">info@parapente valle de bravo.mx</a>.</p>
             </>
           ),
         },
@@ -170,7 +170,7 @@ export default function PrivacyPage() {
             <div className="bg-dark-50 rounded-xl p-5 space-y-3">
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-primary-500 shrink-0" />
-                <span className="text-sm"><span className="font-medium text-dark-800">Correo:</span> <a href="mailto:info@vuelavalle.mx" className="text-primary-600 hover:text-primary-700 underline underline-offset-2">info@vuelavalle.mx</a></span>
+                <span className="text-sm"><span className="font-medium text-dark-800">Correo:</span> <a href="mailto:info@parapente valle de bravo.mx" className="text-primary-600 hover:text-primary-700 underline underline-offset-2">info@parapente valle de bravo.mx</a></span>
               </div>
               <div className="flex items-center gap-3">
                 <Shield className="w-4 h-4 text-primary-500 shrink-0" />
@@ -188,7 +188,7 @@ export default function PrivacyPage() {
         {
           icon: Shield,
           title: '1. Identity and Address of the Data Controller',
-          content: <p>VuelaValle, located in Valle de Bravo, State of Mexico, 51200, Mexico, is responsible for the processing of your personal data in compliance with the Federal Law on the Protection of Personal Data Held by Private Parties (LFPDPPP).</p>,
+          content: <p>parapente valle de bravo, located in Valle de Bravo, State of Mexico, 51200, Mexico, is responsible for the processing of your personal data in compliance with the Federal Law on the Protection of Personal Data Held by Private Parties (LFPDPPP).</p>,
         },
         {
           icon: UserCheck,
@@ -250,7 +250,7 @@ export default function PrivacyPage() {
                   </ul>
                 </div>
               </div>
-              <p className="mt-4">If you do not wish your data to be used for secondary purposes, you may express this by sending an email to <a href="mailto:info@vuelavalle.mx" className="text-primary-600 hover:text-primary-700 underline underline-offset-2">info@vuelavalle.mx</a>.</p>
+              <p className="mt-4">If you do not wish your data to be used for secondary purposes, you may express this by sending an email to <a href="mailto:info@parapente valle de bravo.mx" className="text-primary-600 hover:text-primary-700 underline underline-offset-2">info@parapente valle de bravo.mx</a>.</p>
             </>
           ),
         },
@@ -300,7 +300,7 @@ export default function PrivacyPage() {
             <div className="bg-dark-50 rounded-xl p-5 space-y-3">
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-primary-500 shrink-0" />
-                <span className="text-sm"><span className="font-medium text-dark-800">Email:</span> <a href="mailto:info@vuelavalle.mx" className="text-primary-600 hover:text-primary-700 underline underline-offset-2">info@vuelavalle.mx</a></span>
+                <span className="text-sm"><span className="font-medium text-dark-800">Email:</span> <a href="mailto:info@parapente valle de bravo.mx" className="text-primary-600 hover:text-primary-700 underline underline-offset-2">info@parapente valle de bravo.mx</a></span>
               </div>
               <div className="flex items-center gap-3">
                 <Shield className="w-4 h-4 text-primary-500 shrink-0" />
@@ -318,8 +318,8 @@ export default function PrivacyPage() {
   return (
     <main className="pt-16 lg:pt-20">
       <SEOHead
-        title={lang === 'es' ? 'Aviso de Privacidad | VuelaValle' : 'Privacy Policy | VuelaValle'}
-        description={lang === 'es' ? 'Aviso de privacidad de VuelaValle. Información sobre el tratamiento de datos personales conforme a la LFPDPPP.' : 'Privacy policy for VuelaValle. Information about personal data processing in compliance with Mexican data protection law.'}
+        title={lang === 'es' ? 'Aviso de Privacidad | parapente valle de bravo' : 'Privacy Policy | parapente valle de bravo'}
+        description={lang === 'es' ? 'Aviso de privacidad de parapente valle de bravo. Información sobre el tratamiento de datos personales conforme a la LFPDPPP.' : 'Privacy policy for parapente valle de bravo. Information about personal data processing in compliance with Mexican data protection law.'}
         pathEs="/aviso-de-privacidad"
         pathEn="/en/privacy-policy"
       />

@@ -174,7 +174,7 @@ export default function PrivacyPage() {
               </div>
               <div className="flex items-center gap-3">
                 <Shield className="w-4 h-4 text-primary-500 shrink-0" />
-                <span className="text-sm"><span className="font-medium text-dark-800">Teléfono:</span> +52 722 XXX XXXX</span>
+                <span className="text-sm"><span className="font-medium text-dark-800">Teléfono:</span> +52 55 5407 0103</span>
               </div>
               <div className="flex items-center gap-3">
                 <Send className="w-4 h-4 text-primary-500 shrink-0" />
@@ -304,7 +304,7 @@ export default function PrivacyPage() {
               </div>
               <div className="flex items-center gap-3">
                 <Shield className="w-4 h-4 text-primary-500 shrink-0" />
-                <span className="text-sm"><span className="font-medium text-dark-800">Phone:</span> +52 722 XXX XXXX</span>
+                <span className="text-sm"><span className="font-medium text-dark-800">Phone:</span> +52 55 5407 0103</span>
               </div>
               <div className="flex items-center gap-3">
                 <Send className="w-4 h-4 text-primary-500 shrink-0" />

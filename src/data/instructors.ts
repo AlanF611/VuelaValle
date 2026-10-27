@@ -5,7 +5,6 @@ export interface Instructor {
   name: string;
   years: number;
   totalFlights: number;
-  certifications: string[];
   specialtyEs: string;
   specialtyEn: string;
   bioEs: string;
@@ -19,7 +18,6 @@ export const instructors: Instructor[] = [
     name: 'Percy Grave',
     years: 35,
     totalFlights: 5000,
-    certifications: ['AVLM Instructor', 'APPI SIV'],
     specialtyEs: 'Acrobacias y SIV',
     specialtyEn: 'Acrobatics and SIV',
     bioEs: 'Percy es un instructor experimentado. Empezó volando ala delta y después se cambió al parapente. Ha participado en múltiples competencias internacionales.',
@@ -31,7 +29,6 @@ export const instructors: Instructor[] = [
     name: 'Noé Colín',
     years: 29,
     totalFlights: 5000,
-    certifications: ['AVLM Instructor', 'APPI Tandem'],
     specialtyEs: 'Vuelos Tandem y formación',
     specialtyEn: 'Tandem flights and training',
     bioEs: 'Noé es especialista en vuelos tándem. Es de los pioneros en Valle de Bravo en vuelos con pasajero. Uno de los pilotos más experimentados.',
@@ -43,7 +40,6 @@ export const instructors: Instructor[] = [
     name: 'Enrique Benítez',
     years: 28,
     totalFlights: 5000,
-    certifications: ['AVLM Instructor', 'APPI Tandem'],
     specialtyEs: 'Vuelos de montaña y expediciones',
     specialtyEn: 'Mountain flights and expeditions',
     bioEs: 'Enriquito es experto en vuelos tándem. Tiene una técnica de despegue impecable. Está involucrado en el vuelo libre desde que nació.',
@@ -55,7 +51,6 @@ export const instructors: Instructor[] = [
     name: 'Esteban Delgado',
     years: 28,
     totalFlights: 5000,
-    certifications: ['AVLM Instructor'],
     specialtyEs: 'Vuelo térmico y cross-country',
     specialtyEn: 'Thermal flying and cross-country',
     bioEs: 'Estaba Delgado, pero ya no tanto... Apasionado del vuelo en la modalidad de cross country. Cualquier duda es el indicado para responderla. Lo que no sabe lo inventa.',
@@ -67,7 +62,6 @@ export const instructors: Instructor[] = [
     name: 'Lázaro González',
     years: 20,
     totalFlights: 5000,
-    certifications: ['AVLM Instructor', 'APPI Tandem'],
     specialtyEs: 'Vuelos XC y competencias',
     specialtyEn: 'XC flights and competitions',
     bioEs: 'Instructor con muchos años de experiencia y muy buen sentido del humor. Él nos entretiene mientras subimos al despegue.',
@@ -76,7 +70,6 @@ export const instructors: Instructor[] = [
   },
 ];
 
-// Componente InstructorCard usando React.createElement
 export const InstructorCard: React.FC<{ instructor: Instructor }> = ({ instructor }) => {
   return React.createElement(
     'div',
@@ -85,13 +78,11 @@ export const InstructorCard: React.FC<{ instructor: Instructor }> = ({ instructo
     React.createElement('h3', null, instructor.name),
     React.createElement('p', null, `Años de experiencia: ${instructor.years}`),
     React.createElement('p', null, `Vuelos totales: ${instructor.totalFlights}+`),
-    React.createElement('p', null, `Certificaciones: ${instructor.certifications.join(', ')}`),
     React.createElement('p', null, `Especialidad: ${instructor.specialtyEs}`),
     React.createElement('p', null, `Biografía: ${instructor.bioEs}`)
   );
 };
 
-// Componente InstructorList usando React.createElement
 export const InstructorList: React.FC<{ instructors?: Instructor[] }> = ({ 
   instructors: propInstructors 
 }) => {
@@ -111,7 +102,6 @@ export const InstructorList: React.FC<{ instructors?: Instructor[] }> = ({
   );
 };
 
-// Componente principal usando React.createElement
 export const InstructorsSection: React.FC = () => {
   return React.createElement(
     'section',
@@ -124,7 +114,6 @@ export const InstructorsSection: React.FC = () => {
   );
 };
 
-// Componente con estilos usando React.createElement
 export const InstructorsWithStyles: React.FC = () => {
   return React.createElement(
     'div',

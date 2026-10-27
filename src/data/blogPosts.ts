@@ -83,7 +83,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: 'Opciones de transporte',
-        content: 'En autom\u00f3vil: La ruta m\u00e1s com\u00fan es por la carretera de cuota, saliendo por La Marquesa hacia Lerma y en Lerma tomar el libramiento hacia Valle de Bravo. El costo de peaje es aproximadamente $150 MXN. Recomendamos salir temprano por la ma\u00f1ana para evitar tr\u00e1fico.\n\nEn autob\u00fas: El autob\u00fas que m\u00e1s se recomienda es el Excelencia Plus, que sale de Observatorio (no de la TAPO). El viaje toma unas 3 horas y cuesta alrededor de $250 MXN.\n\nTransporte privado: Si prefieres no preocuparte por la log\u00edstica, algunos de nuestros paquetes incluyen transporte privado desde puntos de encuentro en la Ciudad de M\u00e9xico.',
+        content: 'En autom\u00f3vil: La ruta m\u00e1s com\u00fan es por la carretera de cuota, saliendo por La Marquesa hacia Lerma y en Lerma tomar el libramiento hacia Valle de Bravo. El costo aproximado es de $800 cada trayecto. Recomendamos salir temprano por la ma\u00f1ana para evitar tr\u00e1fico.\n\nEn autob\u00fas: El autob\u00fas que m\u00e1s se recomienda es el Excelencia Plus, que sale de Observatorio. El viaje toma aproximadamente 2:20 horas. El costo aproximado es de $320 pesos por trayecto.',
       },
       {
         heading: 'Qu\u00e9 hacer adem\u00e1s de volar',
@@ -161,7 +161,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: 'Transportation options',
-        content: 'By car: The most common route is via the toll highway, leaving through La Marquesa toward Lerma and then taking the bypass (libramiento) from Lerma to Valle de Bravo. Toll costs are approximately $150 MXN. We recommend leaving early in the morning to avoid traffic.\n\nBy bus: The most recommended bus is Excelencia Plus, which departs from Observatorio (not from TAPO). The trip takes about 3 hours and costs around $250 MXN.\n\nPrivate transport: If you prefer not to worry about logistics, some of our packages include private transport from meeting points in Mexico City.',
+        content: 'By car: The most common route is via the toll highway, leaving through La Marquesa toward Lerma and then taking the bypass (libramiento) from Lerma to Valle de Bravo. The approximate cost is $800 MXN each way. We recommend leaving early in the morning to avoid traffic.\n\nBy bus: The most recommended bus is Excelencia Plus, which departs from Observatorio. The trip takes approximately 2:20 hours. The approximate cost is $320 MXN each way.',
       },
       {
         heading: 'What to do besides flying',
